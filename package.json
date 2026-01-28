@@ -1,0 +1,12 @@
+{
+  "name": "mattermap",
+  "version": "0.1.0",
+  "description": "An interactive map of the industrial matter flows of the world",
+  "license": "UNLICENSED",
+  "author": "Ángel Manuel Martín",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
