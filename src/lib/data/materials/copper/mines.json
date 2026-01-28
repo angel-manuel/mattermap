@@ -1,0 +1,407 @@
+[
+  {
+    "id": "escondida",
+    "name": "Minera Escondida",
+    "location": {
+      "name": "Atacama Desert, Antofagasta Region, Chile",
+      "coordinates": { "lat": -24.27, "lng": -69.07 }
+    },
+    "country": "CL",
+    "production": { "amount": 1361, "unit": "kt", "year": 2025 },
+    "ownedBy": [
+      { "minerId": "bhp", "percentage": 57.5 },
+      { "minerId": "rio-tinto", "percentage": 30.0 },
+      { "minerId": "jeco", "percentage": 12.5 }
+    ],
+    "feedsTo": [
+      { "smelterId": "guixi", "source": "inferred: typical trade flow - Chile to China largest importer" },
+      { "smelterId": "toyo", "source": "inferred: JECO ownership (Mitsubishi/Nippon Mining) implies Japan exports" },
+      { "smelterId": "saganoseki", "source": "inferred: JECO ownership (Mitsubishi/Nippon Mining) implies Japan exports" }
+    ],
+    "type": "open-pit",
+    "source": "MINING.COM Top 20 Copper Mines 2025"
+  },
+  {
+    "id": "grasberg",
+    "name": "Grasberg Mine",
+    "location": {
+      "name": "Papua Province, Indonesia",
+      "coordinates": { "lat": -4.06, "lng": 137.11 }
+    },
+    "country": "ID",
+    "production": { "amount": 594, "unit": "kt", "year": 2025 },
+    "ownedBy": [
+      { "minerId": "freeport-mcmoran", "percentage": 48.76 },
+      { "minerId": "inalum", "percentage": 51.24 }
+    ],
+    "feedsTo": [
+      { "smelterId": "guixi", "percentage": 38, "source": "Indonesia exports: China 38%, Japan 37%, S.Korea 25% - ProjectBlue 2024" },
+      { "smelterId": "toyo", "source": "Indonesia exports: Japan 37% of Indonesian concentrate - ProjectBlue 2024" },
+      { "smelterId": "saganoseki", "source": "Indonesia exports: Japan 37% of Indonesian concentrate - ProjectBlue 2024" }
+    ],
+    "type": "underground",
+    "source": "MINING.COM Top 20 Copper Mines 2025"
+  },
+  {
+    "id": "kamoa-kakula",
+    "name": "Kamoa-Kakula Mining Complex",
+    "location": {
+      "name": "Lualaba Province, Democratic Republic of Congo",
+      "coordinates": { "lat": -10.77, "lng": 25.28 }
+    },
+    "country": "CD",
+    "production": { "amount": 490, "unit": "kt", "year": 2025 },
+    "ownedBy": [
+      { "minerId": "ivanhoe-mines", "percentage": 39.6 },
+      { "minerId": "zijin-mining", "percentage": 39.6 },
+      { "minerId": "crystal-river", "percentage": 0.8 },
+      { "minerId": "drc-government", "percentage": 20.0 }
+    ],
+    "feedsTo": [
+      { "smelterId": "guixi", "percentage": 50, "source": "Offtake: Zijin Mining (Gold Mountains) 50% + CITIC Metal 50% - Ivanhoe Mines 2021" },
+      { "smelterId": "jinchuan", "source": "100% of offtake to Chinese buyers (Zijin + CITIC Metal) - Mining.com 2021" }
+    ],
+    "type": "underground",
+    "source": "MINING.COM Top 20 Copper Mines 2025"
+  },
+  {
+    "id": "las-bambas",
+    "name": "Las Bambas Mine",
+    "location": {
+      "name": "Apurimac Region, Peru",
+      "coordinates": { "lat": -14.10, "lng": -72.32 }
+    },
+    "country": "PE",
+    "production": { "amount": 421, "unit": "kt", "year": 2025 },
+    "ownedBy": [
+      { "minerId": "mmg", "percentage": 62.5 },
+      { "minerId": "guoxin", "percentage": 22.5 },
+      { "minerId": "citic-metal", "percentage": 15.0 }
+    ],
+    "feedsTo": [
+      { "smelterId": "guixi", "percentage": 26.25, "source": "CITIC Metal has distribution rights for 26.25% of concentrate - CITIC Metal 2014" },
+      { "smelterId": "jinchuan", "source": "Chinese ownership (MMG/China Minmetals, Guoxin, CITIC) implies China exports" },
+      { "smelterId": "yunnan-copper", "source": "inferred: Chinese ownership implies primarily China exports" }
+    ],
+    "type": "open-pit",
+    "source": "MINING.COM Top 20 Copper Mines 2025"
+  },
+  {
+    "id": "buenavista-del-cobre",
+    "name": "Buenavista del Cobre Mine",
+    "location": {
+      "name": "Cananea, Sonora, Mexico",
+      "coordinates": { "lat": 31.07, "lng": -110.30 }
+    },
+    "country": "MX",
+    "production": { "amount": 415, "unit": "kt", "year": 2025 },
+    "ownedBy": [
+      { "minerId": "southern-copper", "percentage": 100.0 }
+    ],
+    "feedsTo": [
+      { "smelterId": "la-caridad-smelter", "source": "inferred: common ownership (Southern Copper/Grupo Mexico) - integrated operations" },
+      { "smelterId": "ilo-smelter", "source": "Southern Copper imports Mexico concentrate to Peru during disruptions - Mining Weekly 2022" }
+    ],
+    "type": "open-pit",
+    "source": "MINING.COM Top 20 Copper Mines 2025"
+  },
+  {
+    "id": "cerro-verde",
+    "name": "Cerro Verde Mine",
+    "location": {
+      "name": "Arequipa Region, Peru",
+      "coordinates": { "lat": -16.54, "lng": -71.59 }
+    },
+    "country": "PE",
+    "production": { "amount": 387, "unit": "kt", "year": 2025 },
+    "ownedBy": [
+      { "minerId": "freeport-mcmoran", "percentage": 53.56 },
+      { "minerId": "smm-cerro-verde", "percentage": 21.0 },
+      { "minerId": "buenaventura", "percentage": 19.58 },
+      { "minerId": "public", "percentage": 5.86 }
+    ],
+    "feedsTo": [
+      { "smelterId": "toyo", "source": "Sumitomo Metal Mining ownership (21%) - copper sale agreement with SMM - Mining Technology" },
+      { "smelterId": "guixi", "source": "inferred: typical trade flow - Peru to China" },
+      { "smelterId": "saganoseki", "source": "inferred: typical trade flow - Peru to Japan" }
+    ],
+    "type": "open-pit",
+    "source": "MINING.COM Top 20 Copper Mines 2025"
+  },
+  {
+    "id": "collahuasi",
+    "name": "Collahuasi Mine",
+    "location": {
+      "name": "Tarapaca Region, Chile",
+      "coordinates": { "lat": -20.96, "lng": -68.66 }
+    },
+    "country": "CL",
+    "production": { "amount": 379, "unit": "kt", "year": 2025 },
+    "ownedBy": [
+      { "minerId": "anglo-american", "percentage": 44.0 },
+      { "minerId": "glencore", "percentage": 44.0 },
+      { "minerId": "mitsui", "percentage": 12.0 }
+    ],
+    "feedsTo": [
+      { "smelterId": "guixi", "percentage": 33.4, "source": "Statista 2017: China 33.4% of Collahuasi exports" },
+      { "smelterId": "horne-smelter", "source": "inferred: Glencore ownership (44%) - Horne is Glencore custom smelter" },
+      { "smelterId": "toyo", "source": "inferred: Mitsui ownership (12%) implies Japan exports" }
+    ],
+    "type": "open-pit",
+    "source": "MINING.COM Top 20 Copper Mines 2025"
+  },
+  {
+    "id": "el-teniente",
+    "name": "El Teniente Mine",
+    "location": {
+      "name": "O'Higgins Region, Chile",
+      "coordinates": { "lat": -34.09, "lng": -70.35 }
+    },
+    "country": "CL",
+    "production": { "amount": 344, "unit": "kt", "year": 2025 },
+    "ownedBy": [
+      { "minerId": "codelco", "percentage": 100.0 }
+    ],
+    "feedsTo": [
+      { "smelterId": "chuquicamata-smelter", "source": "inferred: common ownership (Codelco) - integrated smelter operations" }
+    ],
+    "type": "underground",
+    "source": "MINING.COM Top 20 Copper Mines 2025"
+  },
+  {
+    "id": "quellaveco",
+    "name": "Quellaveco Mine",
+    "location": {
+      "name": "Moquegua Region, Peru",
+      "coordinates": { "lat": -17.13, "lng": -70.58 }
+    },
+    "country": "PE",
+    "production": { "amount": 313, "unit": "kt", "year": 2025 },
+    "ownedBy": [
+      { "minerId": "anglo-american", "percentage": 60.0 },
+      { "minerId": "mitsubishi", "percentage": 40.0 }
+    ],
+    "feedsTo": [
+      { "smelterId": "toyo", "source": "Mitsubishi ownership (40%) - MC is Japan's largest copper producer - Mitsubishi Corp 2022" },
+      { "smelterId": "saganoseki", "source": "inferred: Mitsubishi ownership implies Japan smelter supply" },
+      { "smelterId": "guixi", "source": "inferred: typical trade flow - Peru to China" }
+    ],
+    "type": "open-pit",
+    "source": "MINING.COM Top 20 Copper Mines 2025"
+  },
+  {
+    "id": "antamina",
+    "name": "Antamina Mine",
+    "location": {
+      "name": "Ancash Region, Peru",
+      "coordinates": { "lat": -9.53, "lng": -77.05 }
+    },
+    "country": "PE",
+    "production": { "amount": 309, "unit": "kt", "year": 2025 },
+    "ownedBy": [
+      { "minerId": "bhp", "percentage": 33.75 },
+      { "minerId": "glencore", "percentage": 33.75 },
+      { "minerId": "teck", "percentage": 22.5 },
+      { "minerId": "mitsubishi", "percentage": 10.0 }
+    ],
+    "feedsTo": [
+      { "smelterId": "guixi", "source": "inferred: typical trade flow - Peru to China (largest importer)" },
+      { "smelterId": "toyo", "source": "inferred: Mitsubishi ownership (10%) implies Japan exports" },
+      { "smelterId": "horne-smelter", "source": "inferred: Glencore ownership (33.75%) - Horne is Glencore custom smelter" }
+    ],
+    "type": "open-pit",
+    "source": "MINING.COM Top 20 Copper Mines 2025"
+  },
+  {
+    "id": "morenci",
+    "name": "Morenci Mine",
+    "location": {
+      "name": "Greenlee County, Arizona, USA",
+      "coordinates": { "lat": 33.09, "lng": -109.37 }
+    },
+    "country": "US",
+    "production": { "amount": 305, "unit": "kt", "year": 2025 },
+    "ownedBy": [
+      { "minerId": "freeport-mcmoran", "percentage": 72.0 },
+      { "minerId": "sumitomo", "percentage": 28.0 }
+    ],
+    "feedsTo": [
+      { "smelterId": "toyo", "source": "inferred: Sumitomo ownership (28%) implies Japan exports" }
+    ],
+    "type": "open-pit",
+    "source": "MINING.COM Top 20 Copper Mines 2025"
+  },
+  {
+    "id": "oyu-tolgoi",
+    "name": "Oyu Tolgoi Mine",
+    "location": {
+      "name": "South Gobi Desert, Mongolia",
+      "coordinates": { "lat": 43.01, "lng": 106.84 }
+    },
+    "country": "MN",
+    "production": { "amount": 304, "unit": "kt", "year": 2025 },
+    "ownedBy": [
+      { "minerId": "rio-tinto", "percentage": 66.0 },
+      { "minerId": "mongolia-government", "percentage": 34.0 }
+    ],
+    "feedsTo": [
+      { "smelterId": "guixi", "source": "Primary export to China - 80km from China border - Rio Tinto website" },
+      { "smelterId": "jinchuan", "source": "China copper smelters bank on Oyu Tolgoi for concentrate - News.MN 2024" },
+      { "smelterId": "yunnan-copper", "source": "inferred: geographic proximity - Mongolia to China" }
+    ],
+    "type": "underground",
+    "source": "MINING.COM Top 20 Copper Mines 2025"
+  },
+  {
+    "id": "los-pelambres",
+    "name": "Los Pelambres Mine",
+    "location": {
+      "name": "Coquimbo Region, Chile",
+      "coordinates": { "lat": -31.73, "lng": -70.49 }
+    },
+    "country": "CL",
+    "production": { "amount": 286, "unit": "kt", "year": 2025 },
+    "ownedBy": [
+      { "minerId": "antofagasta", "percentage": 60.0 },
+      { "minerId": "jx-metals", "percentage": 15.79 },
+      { "minerId": "mitsubishi", "percentage": 9.21 },
+      { "minerId": "marubeni", "percentage": 15.0 }
+    ],
+    "feedsTo": [
+      { "smelterId": "saganoseki", "percentage": 50, "source": "Nippon Mining & Metals and Mitsubishi Materials take ~50% of concentrate - Mining Technology" },
+      { "smelterId": "toyo", "source": "Japanese consortium (40% ownership) - Nippon, Mitsubishi, Marubeni" },
+      { "smelterId": "guixi", "source": "Antofagasta supplies to China smelters at benchmark TC/RC - Mining.com 2021" },
+      { "smelterId": "aurubis-hamburg", "source": "Copper sold to Japan, China, rest of Asia, and Europe - NS Energy" }
+    ],
+    "type": "open-pit",
+    "source": "MINING.COM Top 20 Copper Mines 2025"
+  },
+  {
+    "id": "spence",
+    "name": "Spence Mine",
+    "location": {
+      "name": "Antofagasta Region, Chile",
+      "coordinates": { "lat": -22.80, "lng": -69.25 }
+    },
+    "country": "CL",
+    "production": { "amount": 283, "unit": "kt", "year": 2025 },
+    "ownedBy": [
+      { "minerId": "bhp", "percentage": 100.0 }
+    ],
+    "feedsTo": [
+      { "smelterId": "guixi", "source": "inferred: typical trade flow - Chile to China" },
+      { "smelterId": "toyo", "source": "inferred: typical trade flow - Chile to Japan" }
+    ],
+    "type": "open-pit",
+    "source": "MINING.COM Top 20 Copper Mines 2025"
+  },
+  {
+    "id": "radomiro-tomic",
+    "name": "Radomiro Tomic Mine",
+    "location": {
+      "name": "Antofagasta Region, Chile",
+      "coordinates": { "lat": -22.23, "lng": -68.90 }
+    },
+    "country": "CL",
+    "production": { "amount": 278, "unit": "kt", "year": 2025 },
+    "ownedBy": [
+      { "minerId": "codelco", "percentage": 100.0 }
+    ],
+    "feedsTo": [
+      { "smelterId": "chuquicamata-smelter", "percentage": 100, "source": "Integrated with Chuquicamata concentrator - Codelco 2024/2025 reports" }
+    ],
+    "type": "open-pit",
+    "source": "MINING.COM Top 20 Copper Mines 2025"
+  },
+  {
+    "id": "toquepala",
+    "name": "Toquepala Mine",
+    "location": {
+      "name": "Tacna Region, Peru",
+      "coordinates": { "lat": -17.05, "lng": -70.71 }
+    },
+    "country": "PE",
+    "production": { "amount": 257, "unit": "kt", "year": 2025 },
+    "ownedBy": [
+      { "minerId": "southern-copper", "percentage": 100.0 }
+    ],
+    "feedsTo": [
+      { "smelterId": "ilo-smelter", "percentage": 100, "source": "inferred: common ownership (Southern Copper) - Ilo services both Toquepala and Cuajone - SEC 10-K 2024" }
+    ],
+    "type": "open-pit",
+    "source": "MINING.COM Top 20 Copper Mines 2025"
+  },
+  {
+    "id": "olympic-dam",
+    "name": "Olympic Dam Mine",
+    "location": {
+      "name": "South Australia, Australia",
+      "coordinates": { "lat": -30.44, "lng": 136.87 }
+    },
+    "country": "AU",
+    "production": { "amount": 234, "unit": "kt", "year": 2025 },
+    "ownedBy": [
+      { "minerId": "bhp", "percentage": 100.0 }
+    ],
+    "feedsTo": [
+      { "smelterId": "olympic-dam-smelter", "percentage": 100, "source": "Fully integrated mine-to-metal operation at same site - BHP website" }
+    ],
+    "type": "underground",
+    "source": "MINING.COM Top 20 Copper Mines 2025"
+  },
+  {
+    "id": "chuquicamata",
+    "name": "Chuquicamata Mine",
+    "location": {
+      "name": "Antofagasta Region, Chile",
+      "coordinates": { "lat": -22.28, "lng": -68.90 }
+    },
+    "country": "CL",
+    "production": { "amount": 231, "unit": "kt", "year": 2025 },
+    "ownedBy": [
+      { "minerId": "codelco", "percentage": 100.0 }
+    ],
+    "feedsTo": [
+      { "smelterId": "chuquicamata-smelter", "percentage": 100, "source": "inferred: common ownership (Codelco) - adjacent smelter processes mine output - Codelco" }
+    ],
+    "type": "mixed",
+    "source": "MINING.COM Top 20 Copper Mines 2025"
+  },
+  {
+    "id": "salobo",
+    "name": "Salobo Mine",
+    "location": {
+      "name": "Para State, Brazil",
+      "coordinates": { "lat": -5.79, "lng": -50.06 }
+    },
+    "country": "BR",
+    "production": { "amount": 206, "unit": "kt", "year": 2025 },
+    "ownedBy": [
+      { "minerId": "vale", "percentage": 100.0 }
+    ],
+    "feedsTo": [
+      { "smelterId": "guixi", "source": "inferred: typical trade flow - Brazil to China" },
+      { "smelterId": "aurubis-hamburg", "source": "inferred: typical trade flow - Brazil to Europe" }
+    ],
+    "type": "open-pit",
+    "source": "MINING.COM Top 20 Copper Mines 2025"
+  },
+  {
+    "id": "mt-isa",
+    "name": "Mount Isa Mines",
+    "location": {
+      "name": "Queensland, Australia",
+      "coordinates": { "lat": -20.73, "lng": 139.48 }
+    },
+    "country": "AU",
+    "production": { "amount": 198, "unit": "kt", "year": 2025 },
+    "ownedBy": [
+      { "minerId": "glencore", "percentage": 100.0 }
+    ],
+    "feedsTo": [
+      { "smelterId": "mt-isa-smelter", "percentage": 100, "source": "inferred: common ownership (Glencore) - integrated mine and smelter at same site" }
+    ],
+    "type": "mixed",
+    "source": "MINING.COM Top 20 Copper Mines 2025"
+  }
+]

@@ -1,0 +1,269 @@
+[
+  {
+    "id": "guixi",
+    "name": "Guixi Smelter",
+    "location": {
+      "name": "Guixi, Jiangxi Province, China",
+      "coordinates": { "lat": 28.29, "lng": 117.21 }
+    },
+    "country": "CN",
+    "capacity": { "amount": 1100, "unit": "kt", "year": 2024 },
+    "feedsFrom": [
+      { "mineId": "escondida", "source": "inferred: typical trade flow - Chile to China largest importer" },
+      { "mineId": "grasberg", "percentage": 38, "source": "Indonesia exports: China 38% - ProjectBlue 2024" },
+      { "mineId": "kamoa-kakula", "percentage": 50, "source": "Offtake: Zijin Mining (Gold Mountains) 50% - Ivanhoe Mines 2021" },
+      { "mineId": "las-bambas", "percentage": 26.25, "source": "CITIC Metal distribution rights 26.25% - CITIC Metal 2014" },
+      { "mineId": "cerro-verde", "source": "inferred: typical trade flow - Peru to China" },
+      { "mineId": "collahuasi", "percentage": 33.4, "source": "Statista 2017: China 33.4% of Collahuasi exports" },
+      { "mineId": "quellaveco", "source": "inferred: typical trade flow - Peru to China" },
+      { "mineId": "antamina", "source": "inferred: typical trade flow - Peru to China (largest importer)" },
+      { "mineId": "oyu-tolgoi", "source": "Primary export to China - 80km from China border - Rio Tinto" },
+      { "mineId": "los-pelambres", "source": "Antofagasta supplies to China smelters - Mining.com 2021" },
+      { "mineId": "spence", "source": "inferred: typical trade flow - Chile to China" },
+      { "mineId": "salobo", "source": "inferred: typical trade flow - Brazil to China" }
+    ],
+    "owner": "jiangxi-copper",
+    "source": "Statista Global Copper Refineries 2024"
+  },
+  {
+    "id": "shandong-fangyuan",
+    "name": "Dongying Fangyuan Smelter",
+    "location": {
+      "name": "Dongying, Shandong Province, China",
+      "coordinates": { "lat": 37.43, "lng": 118.67 }
+    },
+    "country": "CN",
+    "capacity": { "amount": 700, "unit": "kt", "year": 2024 },
+    "feedsFrom": [
+      { "mineId": "escondida", "source": "inferred: typical trade flow - Chile to China" },
+      { "mineId": "collahuasi", "source": "inferred: typical trade flow - Chile to China" }
+    ],
+    "owner": "shandong-fangyuan",
+    "source": "Statista Global Copper Refineries 2024"
+  },
+  {
+    "id": "jinchuan",
+    "name": "Jinchuan Smelter",
+    "location": {
+      "name": "Jinchang, Gansu Province, China",
+      "coordinates": { "lat": 38.50, "lng": 102.19 }
+    },
+    "country": "CN",
+    "capacity": { "amount": 700, "unit": "kt", "year": 2024 },
+    "feedsFrom": [
+      { "mineId": "kamoa-kakula", "source": "100% of offtake to Chinese buyers (Zijin + CITIC Metal) - Mining.com 2021" },
+      { "mineId": "las-bambas", "source": "Chinese ownership (MMG/China Minmetals) implies China exports" },
+      { "mineId": "oyu-tolgoi", "source": "China smelters bank on Oyu Tolgoi for concentrate - News.MN 2024" }
+    ],
+    "owner": "jinchuan-group",
+    "source": "Statista Global Copper Refineries 2024"
+  },
+  {
+    "id": "tongling-jinlong",
+    "name": "Tongling Jinlong Copper Smelter",
+    "location": {
+      "name": "Tongling, Anhui Province, China",
+      "coordinates": { "lat": 30.95, "lng": 117.81 }
+    },
+    "country": "CN",
+    "capacity": { "amount": 450, "unit": "kt", "year": 2024 },
+    "feedsFrom": [
+      { "mineId": "escondida", "source": "inferred: typical trade flow - Chile to China" },
+      { "mineId": "las-bambas", "source": "inferred: Chinese ownership implies China exports" }
+    ],
+    "owner": "tongling-nonferrous",
+    "source": "Wood Mackenzie Copper Smelters Report"
+  },
+  {
+    "id": "toyo",
+    "name": "Toyo Smelter & Refinery",
+    "location": {
+      "name": "Niihama, Ehime Prefecture, Japan",
+      "coordinates": { "lat": 33.95, "lng": 133.23 }
+    },
+    "country": "JP",
+    "capacity": { "amount": 450, "unit": "kt", "year": 2024 },
+    "feedsFrom": [
+      { "mineId": "escondida", "source": "JECO ownership (Mitsubishi/Nippon Mining) implies Japan exports" },
+      { "mineId": "grasberg", "source": "Indonesia exports: Japan 37% - ProjectBlue 2024" },
+      { "mineId": "cerro-verde", "source": "Sumitomo Metal Mining ownership (21%) - copper sale agreement with SMM" },
+      { "mineId": "quellaveco", "source": "Mitsubishi ownership (40%) - Mitsubishi Corp 2022" },
+      { "mineId": "antamina", "source": "inferred: Mitsubishi ownership (10%) implies Japan exports" },
+      { "mineId": "morenci", "source": "inferred: Sumitomo ownership (28%) implies Japan exports" },
+      { "mineId": "los-pelambres", "source": "Japanese consortium (40% ownership) - Nippon, Mitsubishi, Marubeni" },
+      { "mineId": "collahuasi", "source": "inferred: Mitsui ownership (12%) implies Japan exports" },
+      { "mineId": "spence", "source": "inferred: typical trade flow - Chile to Japan" }
+    ],
+    "owner": "sumitomo-metal-mining",
+    "source": "Sumitomo Metal Mining Corporate Data"
+  },
+  {
+    "id": "saganoseki",
+    "name": "Saganoseki Smelter & Refinery",
+    "location": {
+      "name": "Oita Prefecture, Japan",
+      "coordinates": { "lat": 33.25, "lng": 131.88 }
+    },
+    "country": "JP",
+    "capacity": { "amount": 400, "unit": "kt", "year": 2024 },
+    "feedsFrom": [
+      { "mineId": "escondida", "source": "JECO ownership (Mitsubishi/Nippon Mining) implies Japan exports" },
+      { "mineId": "grasberg", "source": "Indonesia exports: Japan 37% - ProjectBlue 2024" },
+      { "mineId": "cerro-verde", "source": "inferred: typical trade flow - Peru to Japan" },
+      { "mineId": "quellaveco", "source": "inferred: Mitsubishi ownership implies Japan smelter supply" },
+      { "mineId": "los-pelambres", "percentage": 50, "source": "Nippon Mining & Metals and Mitsubishi Materials take ~50% of concentrate - Mining Technology" }
+    ],
+    "owner": "jx-nippon",
+    "source": "JX Nippon Mining & Metals Corporate Data"
+  },
+  {
+    "id": "aurubis-hamburg",
+    "name": "Aurubis Hamburg Smelter",
+    "location": {
+      "name": "Hamburg, Germany",
+      "coordinates": { "lat": 53.52, "lng": 10.03 }
+    },
+    "country": "DE",
+    "capacity": { "amount": 400, "unit": "kt", "year": 2024 },
+    "feedsFrom": [
+      { "mineId": "los-pelambres", "source": "Copper sold to Europe - NS Energy" },
+      { "mineId": "salobo", "source": "inferred: typical trade flow - Brazil to Europe" },
+      { "mineId": "collahuasi", "source": "Aurubis-Codelco cooperation agreement 2024; Glencore/Anglo ownership" },
+      { "mineId": "antamina", "source": "Aurubis imports from Peru - Facing Finance 2023" }
+    ],
+    "owner": "aurubis",
+    "source": "Aurubis Annual Report 2023",
+    "notes": "Long-term supply contracts with Quebrada Blanca (Teck/Chile) and Codelco - Aurubis 2019/2024"
+  },
+  {
+    "id": "chuquicamata-smelter",
+    "name": "Chuquicamata Smelter",
+    "location": {
+      "name": "Calama, Antofagasta Region, Chile",
+      "coordinates": { "lat": -22.31, "lng": -68.93 }
+    },
+    "country": "CL",
+    "capacity": { "amount": 460, "unit": "kt", "year": 2024 },
+    "feedsFrom": [
+      { "mineId": "chuquicamata", "percentage": 100, "source": "inferred: common ownership (Codelco) - adjacent integrated operation" },
+      { "mineId": "radomiro-tomic", "percentage": 100, "source": "Integrated with Chuquicamata concentrator - Codelco 2024/2025 reports" },
+      { "mineId": "el-teniente", "source": "inferred: common ownership (Codelco) - integrated smelter operations" }
+    ],
+    "owner": "codelco",
+    "source": "Codelco Annual Report",
+    "notes": "Capacity to process 1.4 million tons of concentrate per year - Wikipedia"
+  },
+  {
+    "id": "yunnan-copper",
+    "name": "Yunnan Copper Smelter",
+    "location": {
+      "name": "Kunming, Yunnan Province, China",
+      "coordinates": { "lat": 25.04, "lng": 102.71 }
+    },
+    "country": "CN",
+    "capacity": { "amount": 400, "unit": "kt", "year": 2024 },
+    "feedsFrom": [
+      { "mineId": "las-bambas", "source": "inferred: Chinese ownership implies primarily China exports" },
+      { "mineId": "oyu-tolgoi", "source": "inferred: geographic proximity - Mongolia to China" }
+    ],
+    "owner": "yunnan-copper",
+    "source": "Industry Reports 2024"
+  },
+  {
+    "id": "palabora",
+    "name": "Palabora Smelter",
+    "location": {
+      "name": "Phalaborwa, Limpopo Province, South Africa",
+      "coordinates": { "lat": -23.99, "lng": 31.14 }
+    },
+    "country": "ZA",
+    "capacity": { "amount": 130, "unit": "kt", "year": 2024 },
+    "feedsFrom": [],
+    "owner": "palabora-mining",
+    "source": "Industry Reports 2024",
+    "notes": "Integrated with local Palabora mine; limited third-party concentrate intake"
+  },
+  {
+    "id": "ilo-smelter",
+    "name": "Ilo Smelter",
+    "location": {
+      "name": "Ilo, Moquegua Region, Peru",
+      "coordinates": { "lat": -17.64, "lng": -71.34 }
+    },
+    "country": "PE",
+    "capacity": { "amount": 320, "unit": "kt", "year": 2024 },
+    "feedsFrom": [
+      { "mineId": "toquepala", "percentage": 100, "source": "inferred: common ownership (Southern Copper) - SEC 10-K 2024" },
+      { "mineId": "buenavista-del-cobre", "source": "Southern Copper imports Mexico concentrate during disruptions - Mining Weekly 2022" }
+    ],
+    "owner": "southern-copper",
+    "source": "Southern Copper Annual Report",
+    "notes": "Services both Toquepala and Cuajone mines; modernization to smelt 1.1M tons/year"
+  },
+  {
+    "id": "la-caridad-smelter",
+    "name": "La Caridad Smelter",
+    "location": {
+      "name": "Nacozari de Garcia, Sonora, Mexico",
+      "coordinates": { "lat": 30.38, "lng": -109.69 }
+    },
+    "country": "MX",
+    "capacity": { "amount": 300, "unit": "kt", "year": 2024 },
+    "feedsFrom": [
+      { "mineId": "buenavista-del-cobre", "source": "inferred: common ownership (Southern Copper/Grupo Mexico) - integrated operations" }
+    ],
+    "owner": "southern-copper",
+    "source": "Southern Copper Annual Report",
+    "notes": "Integrated with La Caridad mine and Pilares mine - SEC 10-K"
+  },
+  {
+    "id": "olympic-dam-smelter",
+    "name": "Olympic Dam Smelter",
+    "location": {
+      "name": "Roxby Downs, South Australia",
+      "coordinates": { "lat": -30.44, "lng": 136.87 }
+    },
+    "country": "AU",
+    "capacity": { "amount": 350, "unit": "kt", "year": 2024 },
+    "feedsFrom": [
+      { "mineId": "olympic-dam", "percentage": 100, "source": "Fully integrated mine-to-metal operation - BHP website" }
+    ],
+    "owner": "bhp",
+    "source": "BHP Annual Report",
+    "notes": "BHP Copper SA province: receives concentrate from Prominent Hill and Carrapateena too - BHP 2024"
+  },
+  {
+    "id": "mt-isa-smelter",
+    "name": "Mount Isa Copper Smelter",
+    "location": {
+      "name": "Mount Isa, Queensland, Australia",
+      "coordinates": { "lat": -20.73, "lng": 139.49 }
+    },
+    "country": "AU",
+    "capacity": { "amount": 280, "unit": "kt", "year": 2024 },
+    "feedsFrom": [
+      { "mineId": "mt-isa", "percentage": 100, "source": "inferred: common ownership (Glencore) - integrated mine and smelter" },
+      { "mineId": "olympic-dam", "source": "Processes over 1M tons concentrate from across Australia including BHP's Olympic Dam - Glencore" }
+    ],
+    "owner": "glencore",
+    "source": "Glencore Annual Report",
+    "notes": "Transitioning to 100% third-party concentrates after mine closure July 2025; receives True North Copper offtake - Glencore 2024"
+  },
+  {
+    "id": "horne-smelter",
+    "name": "Horne Smelter",
+    "location": {
+      "name": "Rouyn-Noranda, Quebec, Canada",
+      "coordinates": { "lat": 48.24, "lng": -79.02 }
+    },
+    "country": "CA",
+    "capacity": { "amount": 210, "unit": "kt", "year": 2024 },
+    "feedsFrom": [
+      { "mineId": "collahuasi", "source": "inferred: Glencore ownership (44%) - Horne is Glencore custom smelter" },
+      { "mineId": "antamina", "source": "inferred: Glencore ownership (33.75%) - custom smelter for Glencore mines" }
+    ],
+    "owner": "glencore",
+    "source": "Glencore Annual Report",
+    "notes": "Only copper smelter in Canada; processes ~740kt concentrate/year from mines worldwide - Glencore Canada"
+  }
+]

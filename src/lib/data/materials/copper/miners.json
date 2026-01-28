@@ -1,0 +1,222 @@
+[
+  {
+    "id": "bhp",
+    "name": "BHP Group Limited",
+    "hqLocation": {
+      "name": "Melbourne, Victoria, Australia",
+      "coordinates": { "lat": -37.82, "lng": 144.97 }
+    },
+    "country": "AU",
+    "website": "https://www.bhp.com",
+    "source": "BHP Corporate Website"
+  },
+  {
+    "id": "glencore",
+    "name": "Glencore plc",
+    "hqLocation": {
+      "name": "Baar, Zug, Switzerland",
+      "coordinates": { "lat": 47.18, "lng": 8.53 }
+    },
+    "country": "CH",
+    "website": "https://www.glencore.com",
+    "source": "Glencore Corporate Website"
+  },
+  {
+    "id": "freeport-mcmoran",
+    "name": "Freeport-McMoRan Inc.",
+    "hqLocation": {
+      "name": "Phoenix, Arizona, USA",
+      "coordinates": { "lat": 33.45, "lng": -112.07 }
+    },
+    "country": "US",
+    "website": "https://www.fcx.com",
+    "source": "Freeport-McMoRan Corporate Website"
+  },
+  {
+    "id": "codelco",
+    "name": "Corporacion Nacional del Cobre de Chile",
+    "hqLocation": {
+      "name": "Santiago, Chile",
+      "coordinates": { "lat": -33.44, "lng": -70.65 }
+    },
+    "country": "CL",
+    "website": "https://www.codelco.com",
+    "source": "Codelco Corporate Website"
+  },
+  {
+    "id": "anglo-american",
+    "name": "Anglo American plc",
+    "hqLocation": {
+      "name": "London, United Kingdom",
+      "coordinates": { "lat": 51.52, "lng": -0.10 }
+    },
+    "country": "GB",
+    "website": "https://www.angloamerican.com",
+    "source": "Anglo American Corporate Website"
+  },
+  {
+    "id": "rio-tinto",
+    "name": "Rio Tinto Group",
+    "hqLocation": {
+      "name": "London, United Kingdom",
+      "coordinates": { "lat": 51.51, "lng": -0.13 }
+    },
+    "country": "GB",
+    "website": "https://www.riotinto.com",
+    "source": "Rio Tinto Corporate Website"
+  },
+  {
+    "id": "southern-copper",
+    "name": "Southern Copper Corporation",
+    "hqLocation": {
+      "name": "Phoenix, Arizona, USA",
+      "coordinates": { "lat": 33.52, "lng": -112.07 }
+    },
+    "country": "US",
+    "website": "https://southerncoppercorp.com",
+    "source": "Southern Copper Corporate Website"
+  },
+  {
+    "id": "mmg",
+    "name": "MMG Limited",
+    "hqLocation": {
+      "name": "Melbourne, Victoria, Australia",
+      "coordinates": { "lat": -37.82, "lng": 144.96 }
+    },
+    "country": "AU",
+    "website": "https://www.mmg.com",
+    "source": "MMG Corporate Website"
+  },
+  {
+    "id": "ivanhoe-mines",
+    "name": "Ivanhoe Mines Ltd.",
+    "hqLocation": {
+      "name": "Vancouver, British Columbia, Canada",
+      "coordinates": { "lat": 49.29, "lng": -123.11 }
+    },
+    "country": "CA",
+    "website": "https://www.ivanhoemines.com",
+    "source": "Ivanhoe Mines Corporate Website"
+  },
+  {
+    "id": "zijin-mining",
+    "name": "Zijin Mining Group Co., Ltd.",
+    "hqLocation": {
+      "name": "Shanghang, Fujian Province, China",
+      "coordinates": { "lat": 25.05, "lng": 116.42 }
+    },
+    "country": "CN",
+    "website": "https://www.zijinmining.com",
+    "source": "Zijin Mining Corporate Website"
+  },
+  {
+    "id": "antofagasta",
+    "name": "Antofagasta plc",
+    "hqLocation": {
+      "name": "London, United Kingdom",
+      "coordinates": { "lat": 51.51, "lng": -0.15 }
+    },
+    "country": "GB",
+    "website": "https://www.antofagasta.co.uk",
+    "source": "Antofagasta Corporate Website"
+  },
+  {
+    "id": "vale",
+    "name": "Vale S.A.",
+    "hqLocation": {
+      "name": "Rio de Janeiro, Brazil",
+      "coordinates": { "lat": -22.95, "lng": -43.17 }
+    },
+    "country": "BR",
+    "website": "https://www.vale.com",
+    "source": "Vale Corporate Website"
+  },
+  {
+    "id": "teck",
+    "name": "Teck Resources Limited",
+    "hqLocation": {
+      "name": "Vancouver, British Columbia, Canada",
+      "coordinates": { "lat": 49.29, "lng": -123.12 }
+    },
+    "country": "CA",
+    "website": "https://www.teck.com",
+    "source": "Teck Resources Corporate Website"
+  },
+  {
+    "id": "sumitomo",
+    "name": "Sumitomo Metal Mining Co., Ltd.",
+    "hqLocation": {
+      "name": "Tokyo, Japan",
+      "coordinates": { "lat": 35.68, "lng": 139.77 }
+    },
+    "country": "JP",
+    "website": "https://www.smm.co.jp",
+    "source": "Sumitomo Metal Mining Corporate Website"
+  },
+  {
+    "id": "mitsubishi",
+    "name": "Mitsubishi Materials Corporation",
+    "hqLocation": {
+      "name": "Tokyo, Japan",
+      "coordinates": { "lat": 35.68, "lng": 139.76 }
+    },
+    "country": "JP",
+    "website": "https://www.mmc.co.jp",
+    "source": "Mitsubishi Materials Corporate Website"
+  },
+  {
+    "id": "mitsui",
+    "name": "Mitsui & Co., Ltd.",
+    "hqLocation": {
+      "name": "Tokyo, Japan",
+      "coordinates": { "lat": 35.67, "lng": 139.76 }
+    },
+    "country": "JP",
+    "website": "https://www.mitsui.com",
+    "source": "Mitsui Corporate Website"
+  },
+  {
+    "id": "jiangxi-copper",
+    "name": "Jiangxi Copper Corporation",
+    "hqLocation": {
+      "name": "Guixi, Jiangxi Province, China",
+      "coordinates": { "lat": 28.29, "lng": 117.21 }
+    },
+    "country": "CN",
+    "website": "http://www.jxcc.com",
+    "source": "Jiangxi Copper Corporate Website"
+  },
+  {
+    "id": "aurubis",
+    "name": "Aurubis AG",
+    "hqLocation": {
+      "name": "Hamburg, Germany",
+      "coordinates": { "lat": 53.55, "lng": 10.00 }
+    },
+    "country": "DE",
+    "website": "https://www.aurubis.com",
+    "source": "Aurubis Corporate Website"
+  },
+  {
+    "id": "jx-nippon",
+    "name": "JX Nippon Mining & Metals Corporation",
+    "hqLocation": {
+      "name": "Tokyo, Japan",
+      "coordinates": { "lat": 35.67, "lng": 139.77 }
+    },
+    "country": "JP",
+    "website": "https://www.nmm.jx-group.co.jp",
+    "source": "JX Nippon Corporate Website"
+  },
+  {
+    "id": "grupo-mexico",
+    "name": "Grupo Mexico S.A.B. de C.V.",
+    "hqLocation": {
+      "name": "Mexico City, Mexico",
+      "coordinates": { "lat": 19.43, "lng": -99.20 }
+    },
+    "country": "MX",
+    "website": "https://www.gmexico.com",
+    "source": "Grupo Mexico Corporate Website"
+  }
+]
