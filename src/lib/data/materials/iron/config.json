@@ -1,0 +1,53 @@
+{
+  "id": "iron",
+  "name": "Iron",
+  "symbol": "Fe",
+  "color": "#71717a",
+  "description": "Iron ore mining, processing, and steelmaking",
+  "facilityTypes": [
+    {
+      "id": "mine",
+      "name": "Mine",
+      "namePlural": "Mines",
+      "icon": "●",
+      "color": "#78716c",
+      "shape": "circle",
+      "capacityUnit": "Mt/year",
+      "capacityLabel": "Production",
+      "canFeedTo": ["pellet_plant", "sinter_plant", "blast_furnace"]
+    },
+    {
+      "id": "pellet_plant",
+      "name": "Pellet Plant",
+      "namePlural": "Pellet Plants",
+      "icon": "○",
+      "color": "#a8a29e",
+      "shape": "circle",
+      "capacityUnit": "Mt/year",
+      "capacityLabel": "Capacity",
+      "canFeedTo": ["blast_furnace", "dri_plant"]
+    },
+    {
+      "id": "blast_furnace",
+      "name": "Blast Furnace",
+      "namePlural": "Blast Furnaces",
+      "icon": "■",
+      "color": "#ef4444",
+      "shape": "square",
+      "capacityUnit": "Mt/year",
+      "capacityLabel": "Capacity",
+      "canFeedTo": ["steel_mill"]
+    },
+    {
+      "id": "steel_mill",
+      "name": "Steel Mill",
+      "namePlural": "Steel Mills",
+      "icon": "★",
+      "color": "#1e3a8a",
+      "shape": "pentagon",
+      "capacityUnit": "Mt/year",
+      "capacityLabel": "Capacity",
+      "canFeedTo": []
+    }
+  ]
+}

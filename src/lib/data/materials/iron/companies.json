@@ -1,0 +1,220 @@
+[
+  {
+    "id": "vale",
+    "name": "Vale S.A.",
+    "hqLocation": {
+      "name": "Rio de Janeiro, Brazil",
+      "coordinates": { "lat": -22.91, "lng": -43.17 }
+    },
+    "country": "BR",
+    "website": "https://www.vale.com",
+    "source": "Vale Corporate"
+  },
+  {
+    "id": "bhp",
+    "name": "BHP Group",
+    "hqLocation": {
+      "name": "Melbourne, Australia",
+      "coordinates": { "lat": -37.82, "lng": 144.97 }
+    },
+    "country": "AU",
+    "website": "https://www.bhp.com",
+    "source": "BHP Corporate"
+  },
+  {
+    "id": "rio-tinto",
+    "name": "Rio Tinto",
+    "hqLocation": {
+      "name": "London, United Kingdom",
+      "coordinates": { "lat": 51.51, "lng": -0.13 }
+    },
+    "country": "GB",
+    "website": "https://www.riotinto.com",
+    "source": "Rio Tinto Corporate"
+  },
+  {
+    "id": "fortescue",
+    "name": "Fortescue Metals Group",
+    "hqLocation": {
+      "name": "Perth, Australia",
+      "coordinates": { "lat": -31.95, "lng": 115.86 }
+    },
+    "country": "AU",
+    "website": "https://www.fortescue.com",
+    "source": "Fortescue Corporate"
+  },
+  {
+    "id": "anglo-american",
+    "name": "Anglo American",
+    "hqLocation": {
+      "name": "London, United Kingdom",
+      "coordinates": { "lat": 51.51, "lng": -0.13 }
+    },
+    "country": "GB",
+    "website": "https://www.angloamerican.com",
+    "source": "Anglo American Corporate"
+  },
+  {
+    "id": "arcelormittal",
+    "name": "ArcelorMittal",
+    "hqLocation": {
+      "name": "Luxembourg City, Luxembourg",
+      "coordinates": { "lat": 49.61, "lng": 6.13 }
+    },
+    "country": "LU",
+    "website": "https://www.arcelormittal.com",
+    "source": "ArcelorMittal Corporate"
+  },
+  {
+    "id": "china-baowu",
+    "name": "China Baowu Steel Group",
+    "hqLocation": {
+      "name": "Shanghai, China",
+      "coordinates": { "lat": 31.23, "lng": 121.47 }
+    },
+    "country": "CN",
+    "website": "https://www.baowugroup.com",
+    "source": "China Baowu Corporate"
+  },
+  {
+    "id": "lkab",
+    "name": "Luossavaara-Kiirunavaara AB (LKAB)",
+    "hqLocation": {
+      "name": "Lulea, Sweden",
+      "coordinates": { "lat": 65.58, "lng": 22.15 }
+    },
+    "country": "SE",
+    "website": "https://www.lkab.com",
+    "source": "LKAB Corporate"
+  },
+  {
+    "id": "kumba-iron-ore",
+    "name": "Kumba Iron Ore",
+    "hqLocation": {
+      "name": "Johannesburg, South Africa",
+      "coordinates": { "lat": -26.20, "lng": 28.04 }
+    },
+    "country": "ZA",
+    "website": "https://www.angloamericankumba.com",
+    "source": "Kumba Iron Ore Corporate (Anglo American subsidiary)"
+  },
+  {
+    "id": "hancock-prospecting",
+    "name": "Hancock Prospecting",
+    "hqLocation": {
+      "name": "Perth, Australia",
+      "coordinates": { "lat": -31.95, "lng": 115.86 }
+    },
+    "country": "AU",
+    "website": "https://www.hancockprospecting.com.au",
+    "source": "Hancock Prospecting Corporate"
+  },
+  {
+    "id": "itochu",
+    "name": "ITOCHU Corporation",
+    "hqLocation": {
+      "name": "Tokyo, Japan",
+      "coordinates": { "lat": 35.69, "lng": 139.69 }
+    },
+    "country": "JP",
+    "website": "https://www.itochu.co.jp",
+    "source": "ITOCHU Corporate"
+  },
+  {
+    "id": "mitsui-iron",
+    "name": "Mitsui Iron Ore Development",
+    "hqLocation": {
+      "name": "Tokyo, Japan",
+      "coordinates": { "lat": 35.69, "lng": 139.69 }
+    },
+    "country": "JP",
+    "website": "https://www.mitsui.com",
+    "source": "Mitsui & Co. Corporate"
+  },
+  {
+    "id": "mitsui-itochu-iron",
+    "name": "Mitsui-ITOCHU Iron",
+    "hqLocation": {
+      "name": "Tokyo, Japan",
+      "coordinates": { "lat": 35.69, "lng": 139.69 }
+    },
+    "country": "JP",
+    "source": "Joint venture Mitsui & ITOCHU"
+  },
+  {
+    "id": "itochu-minerals",
+    "name": "ITOCHU Minerals & Energy of Australia",
+    "hqLocation": {
+      "name": "Perth, Australia",
+      "coordinates": { "lat": -31.95, "lng": 115.86 }
+    },
+    "country": "AU",
+    "website": "https://www.itochu.co.jp",
+    "source": "ITOCHU subsidiary"
+  },
+  {
+    "id": "sioc-public",
+    "name": "Sishen Iron Ore Company (Public Shareholders)",
+    "hqLocation": {
+      "name": "Johannesburg, South Africa",
+      "coordinates": { "lat": -26.20, "lng": 28.04 }
+    },
+    "country": "ZA",
+    "source": "Public minority shareholders in SIOC"
+  },
+  {
+    "id": "posco",
+    "name": "POSCO Holdings Inc.",
+    "hqLocation": {
+      "name": "Pohang, South Korea",
+      "coordinates": { "lat": 36.03, "lng": 129.37 }
+    },
+    "country": "KR",
+    "website": "https://www.posco.co.kr",
+    "source": "POSCO Corporate"
+  },
+  {
+    "id": "nippon-steel",
+    "name": "Nippon Steel Corporation",
+    "hqLocation": {
+      "name": "Tokyo, Japan",
+      "coordinates": { "lat": 35.69, "lng": 139.69 }
+    },
+    "country": "JP",
+    "website": "https://www.nipponsteel.com",
+    "source": "Nippon Steel Corporate"
+  },
+  {
+    "id": "jfe-steel",
+    "name": "JFE Steel Corporation",
+    "hqLocation": {
+      "name": "Tokyo, Japan",
+      "coordinates": { "lat": 35.69, "lng": 139.69 }
+    },
+    "country": "JP",
+    "website": "https://www.jfe-steel.co.jp",
+    "source": "JFE Steel Corporate"
+  },
+  {
+    "id": "tata-steel",
+    "name": "Tata Steel Limited",
+    "hqLocation": {
+      "name": "Mumbai, India",
+      "coordinates": { "lat": 19.08, "lng": 72.88 }
+    },
+    "country": "IN",
+    "website": "https://www.tatasteel.com",
+    "source": "Tata Steel Corporate"
+  },
+  {
+    "id": "csn",
+    "name": "Companhia Siderúrgica Nacional (CSN)",
+    "hqLocation": {
+      "name": "São Paulo, Brazil",
+      "coordinates": { "lat": -23.55, "lng": -46.63 }
+    },
+    "country": "BR",
+    "website": "https://www.csn.com.br",
+    "source": "CSN Corporate"
+  }
+]

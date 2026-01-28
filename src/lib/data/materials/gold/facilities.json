@@ -1,0 +1,435 @@
+[
+  {
+    "id": "nevada-gold-mines",
+    "type": "mine",
+    "name": "Nevada Gold Mines",
+    "location": {
+      "name": "Carlin Trend, Elko/Eureka Counties, Nevada, USA",
+      "coordinates": { "lat": 40.78, "lng": -116.20 }
+    },
+    "country": "US",
+    "capacity": { "amount": 2.70, "unit": "Moz", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "barrick", "percentage": 61.5 },
+      { "companyId": "newmont", "percentage": 38.5 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "mixed",
+    "source": "MINING.COM Top 20 Gold Mines 2024"
+  },
+  {
+    "id": "muruntau",
+    "type": "mine",
+    "name": "Muruntau Mine",
+    "location": {
+      "name": "Kyzylkum Desert, Navoiy Region, Uzbekistan",
+      "coordinates": { "lat": 41.48, "lng": 64.58 }
+    },
+    "country": "UZ",
+    "capacity": { "amount": 2.68, "unit": "Moz", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "navoi-mining", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "MINING.COM Top 20 Gold Mines 2024"
+  },
+  {
+    "id": "grasberg",
+    "type": "mine",
+    "name": "Grasberg Mine",
+    "location": {
+      "name": "Mimika Regency, Papua Province, Indonesia",
+      "coordinates": { "lat": -4.06, "lng": 137.11 }
+    },
+    "country": "ID",
+    "capacity": { "amount": 1.80, "unit": "Moz", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "freeport-mcmoran", "percentage": 48.76 },
+      { "companyId": "inalum", "percentage": 51.24 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "underground",
+    "source": "MINING.COM Top 20 Gold Mines 2024 - Primary copper mine with major gold byproduct"
+  },
+  {
+    "id": "olimpiada",
+    "type": "mine",
+    "name": "Olimpiada Mine",
+    "location": {
+      "name": "Severo-Yeniseysky District, Krasnoyarsk Krai, Russia",
+      "coordinates": { "lat": 59.86, "lng": 92.91 }
+    },
+    "country": "RU",
+    "capacity": { "amount": 1.44, "unit": "Moz", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "polyus", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "MINING.COM Top 20 Gold Mines 2024"
+  },
+  {
+    "id": "almalyk",
+    "type": "mine",
+    "name": "Almalyk MMC Complex",
+    "location": {
+      "name": "Olmaliq, Tashkent Region, Uzbekistan",
+      "coordinates": { "lat": 40.81, "lng": 69.65 }
+    },
+    "country": "UZ",
+    "capacity": { "amount": 1.11, "unit": "Moz", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "almalyk-mmc", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "MINING.COM Top 20 Gold Mines 2024"
+  },
+  {
+    "id": "batu-hijau",
+    "type": "mine",
+    "name": "Batu Hijau Mine",
+    "location": {
+      "name": "West Sumbawa, West Nusa Tenggara, Indonesia",
+      "coordinates": { "lat": -8.97, "lng": 116.87 }
+    },
+    "country": "ID",
+    "capacity": { "amount": 1.01, "unit": "Moz", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "amman-mineral", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "MINING.COM Top 20 Gold Mines 2024 - Primary copper mine with gold byproduct"
+  },
+  {
+    "id": "vasilkovskoye",
+    "type": "mine",
+    "name": "Vasilkovskoye (Altyntau-Kokshetau) Mine",
+    "location": {
+      "name": "Akmola Region, Kazakhstan",
+      "coordinates": { "lat": 53.42, "lng": 69.45 }
+    },
+    "country": "KZ",
+    "capacity": { "amount": 1.00, "unit": "Moz", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "kazzinc", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "MINING.COM Top 20 Gold Mines 2024 - Kazzinc/Glencore"
+  },
+  {
+    "id": "ahafo",
+    "type": "mine",
+    "name": "Ahafo Mine",
+    "location": {
+      "name": "Ahafo Region, Ghana",
+      "coordinates": { "lat": 7.03, "lng": -2.35 }
+    },
+    "country": "GH",
+    "capacity": { "amount": 0.80, "unit": "Moz", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "newmont", "percentage": 90 },
+      { "companyId": "ghana-government", "percentage": 10 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "MINING.COM Top 20 Gold Mines 2024"
+  },
+  {
+    "id": "loulo-gounkoto",
+    "type": "mine",
+    "name": "Loulo-Gounkoto Complex",
+    "location": {
+      "name": "Kenieba District, Kayes Region, Mali",
+      "coordinates": { "lat": 12.88, "lng": -11.39 }
+    },
+    "country": "ML",
+    "capacity": { "amount": 0.69, "unit": "Moz", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "barrick", "percentage": 80 },
+      { "companyId": "mali-government", "percentage": 20 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "mixed",
+    "source": "MINING.COM Top 20 Gold Mines 2024"
+  },
+  {
+    "id": "kibali",
+    "type": "mine",
+    "name": "Kibali Mine",
+    "location": {
+      "name": "Haut-Uele Province, Democratic Republic of Congo",
+      "coordinates": { "lat": 3.13, "lng": 29.59 }
+    },
+    "country": "CD",
+    "capacity": { "amount": 0.69, "unit": "Moz", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "anglogold-ashanti", "percentage": 45 },
+      { "companyId": "barrick", "percentage": 45 },
+      { "companyId": "sokimo", "percentage": 10 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "mixed",
+    "source": "MINING.COM Top 20 Gold Mines 2024"
+  },
+  {
+    "id": "detour-lake",
+    "type": "mine",
+    "name": "Detour Lake Mine",
+    "location": {
+      "name": "Cochrane District, Ontario, Canada",
+      "coordinates": { "lat": 50.02, "lng": -79.72 }
+    },
+    "country": "CA",
+    "capacity": { "amount": 0.67, "unit": "Moz", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "agnico-eagle", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "MINING.COM Top 20 Gold Mines 2024"
+  },
+  {
+    "id": "canadian-malartic",
+    "type": "mine",
+    "name": "Canadian Malartic Mine",
+    "location": {
+      "name": "Malartic, Quebec, Canada",
+      "coordinates": { "lat": 48.37, "lng": -78.38 }
+    },
+    "country": "CA",
+    "capacity": { "amount": 0.66, "unit": "Moz", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "agnico-eagle", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "MINING.COM Top 20 Gold Mines 2024"
+  },
+  {
+    "id": "pueblo-viejo",
+    "type": "mine",
+    "name": "Pueblo Viejo Mine",
+    "location": {
+      "name": "Sanchez Ramirez Province, Dominican Republic",
+      "coordinates": { "lat": 19.00, "lng": -70.16 }
+    },
+    "country": "DO",
+    "capacity": { "amount": 0.59, "unit": "Moz", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "barrick", "percentage": 60 },
+      { "companyId": "newmont", "percentage": 40 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "MINING.COM Top 20 Gold Mines 2024"
+  },
+  {
+    "id": "tarkwa",
+    "type": "mine",
+    "name": "Tarkwa Mine",
+    "location": {
+      "name": "Tarkwa, Western Region, Ghana",
+      "coordinates": { "lat": 5.29, "lng": -2.04 }
+    },
+    "country": "GH",
+    "capacity": { "amount": 0.54, "unit": "Moz", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "gold-fields", "percentage": 90 },
+      { "companyId": "ghana-government", "percentage": 10 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "MINING.COM Top 20 Gold Mines 2024"
+  },
+  {
+    "id": "paracatu",
+    "type": "mine",
+    "name": "Paracatu Mine",
+    "location": {
+      "name": "Minas Gerais, Brazil",
+      "coordinates": { "lat": -17.22, "lng": -46.88 }
+    },
+    "country": "BR",
+    "capacity": { "amount": 0.53, "unit": "Moz", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "kinross", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "MINING.COM Top 20 Gold Mines 2024"
+  },
+  {
+    "id": "valcambi",
+    "type": "refinery",
+    "name": "Valcambi SA",
+    "location": {
+      "name": "Balerna, Canton Ticino, Switzerland",
+      "coordinates": { "lat": 45.85, "lng": 9.01 }
+    },
+    "country": "CH",
+    "capacity": { "amount": 1600, "unit": "t/year", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "rajesh-exports", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "refining",
+    "source": "LBMA Good Delivery List / Valcambi Sustainability Report",
+    "status": "operating"
+  },
+  {
+    "id": "rand-refinery",
+    "type": "refinery",
+    "name": "Rand Refinery",
+    "location": {
+      "name": "Germiston, Gauteng, South Africa",
+      "coordinates": { "lat": -26.21, "lng": 28.17 }
+    },
+    "country": "ZA",
+    "capacity": { "amount": 600, "unit": "t/year", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "harmony-gold", "percentage": 31.6 },
+      { "companyId": "anglogold-ashanti", "percentage": 28.8 },
+      { "companyId": "sibanye-stillwater", "percentage": 27.3 },
+      { "companyId": "dpru-investments", "percentage": 12.3 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "refining",
+    "source": "LBMA Good Delivery List / Rand Refinery Official",
+    "status": "operating"
+  },
+  {
+    "id": "metalor-marin",
+    "type": "refinery",
+    "name": "Metalor Technologies SA",
+    "location": {
+      "name": "Marin-Epagnier, Neuchâtel, Switzerland",
+      "coordinates": { "lat": 47.02, "lng": 7.02 }
+    },
+    "country": "CH",
+    "capacity": { "amount": 650, "unit": "t/year", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "tanaka-kikinzoku", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "refining",
+    "source": "LBMA Good Delivery List / USGS Minerals Yearbook",
+    "status": "operating"
+  },
+  {
+    "id": "tanaka-shonan",
+    "type": "refinery",
+    "name": "Tanaka Kikinzoku Kogyo K.K.",
+    "location": {
+      "name": "Shonan Plant, Hiratsuka, Kanagawa, Japan",
+      "coordinates": { "lat": 35.34, "lng": 139.34 }
+    },
+    "country": "JP",
+    "capacity": { "amount": 500, "unit": "t/year", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "tanaka-kikinzoku", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "refining",
+    "source": "LBMA Good Delivery List / Tanaka Corporate",
+    "status": "operating"
+  },
+  {
+    "id": "pamp-castel-san-pietro",
+    "type": "refinery",
+    "name": "PAMP SA (MKS PAMP)",
+    "location": {
+      "name": "Castel San Pietro, Canton Ticino, Switzerland",
+      "coordinates": { "lat": 45.86, "lng": 9.05 }
+    },
+    "country": "CH",
+    "capacity": { "amount": 450, "unit": "t/year", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "mks-pamp", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "refining",
+    "source": "LBMA Good Delivery List / MKS PAMP Official",
+    "status": "operating"
+  },
+  {
+    "id": "argor-heraeus",
+    "type": "refinery",
+    "name": "Argor-Heraeus SA",
+    "location": {
+      "name": "Mendrisio, Canton Ticino, Switzerland",
+      "coordinates": { "lat": 45.87, "lng": 8.98 }
+    },
+    "country": "CH",
+    "capacity": { "amount": 400, "unit": "t/year", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "heraeus-precious-metals", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "refining",
+    "source": "LBMA Good Delivery List / Argor-Heraeus Corporate Report",
+    "status": "operating"
+  },
+  {
+    "id": "perth-mint",
+    "type": "refinery",
+    "name": "The Perth Mint",
+    "location": {
+      "name": "East Perth, Western Australia, Australia",
+      "coordinates": { "lat": -31.95, "lng": 115.87 }
+    },
+    "country": "AU",
+    "capacity": { "amount": 300, "unit": "t/year", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "government-western-australia", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "refining",
+    "source": "LBMA Good Delivery List / Perth Mint Annual Report 2024-25",
+    "status": "operating"
+  },
+  {
+    "id": "royal-canadian-mint",
+    "type": "refinery",
+    "name": "Royal Canadian Mint",
+    "location": {
+      "name": "Ottawa, Ontario, Canada",
+      "coordinates": { "lat": 45.41, "lng": -75.70 }
+    },
+    "country": "CA",
+    "capacity": { "amount": 300, "unit": "t/year", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "government-canada", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "refining",
+    "source": "LBMA Good Delivery List / Royal Canadian Mint Official",
+    "status": "operating"
+  }
+]

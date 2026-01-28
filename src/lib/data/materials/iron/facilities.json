@@ -1,0 +1,455 @@
+[
+  {
+    "id": "hamersley-pilbara",
+    "type": "mine",
+    "name": "Hamersley Mines & Channar Complex",
+    "location": {
+      "name": "Pilbara, Western Australia",
+      "coordinates": { "lat": -22.77, "lng": 117.77 }
+    },
+    "country": "AU",
+    "capacity": { "amount": 207, "unit": "Mt", "year": 2023 },
+    "ownedBy": [
+      { "companyId": "rio-tinto", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "MINING.COM Top 20 Iron Ore Operations 2023",
+    "notes": "Includes Mount Tom Price, Paraburdoo, Channar, Marandoo and other Hamersley Basin operations"
+  },
+  {
+    "id": "carajas-northern-system",
+    "type": "mine",
+    "name": "Carajas Northern System (Serra Norte)",
+    "location": {
+      "name": "Parauapebas, Para, Brazil",
+      "coordinates": { "lat": -5.79, "lng": -50.06 }
+    },
+    "country": "BR",
+    "capacity": { "amount": 185, "unit": "Mt", "year": 2023 },
+    "ownedBy": [
+      { "companyId": "vale", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "MINING.COM Top 20 Iron Ore Operations 2023",
+    "notes": "World's largest iron ore mine complex with N4, N4E, N4W, N5, N5S, N5E, N5W pits"
+  },
+  {
+    "id": "fortescue-chichester-hub",
+    "type": "mine",
+    "name": "Fortescue Chichester Hub (Cloudbreak & Christmas Creek)",
+    "location": {
+      "name": "Chichester Range, Pilbara, Western Australia",
+      "coordinates": { "lat": -22.38, "lng": 119.85 }
+    },
+    "country": "AU",
+    "capacity": { "amount": 100, "unit": "Mt", "year": 2023 },
+    "ownedBy": [
+      { "companyId": "fortescue", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "MINING.COM / Fortescue Corporate 2023",
+    "notes": "Part of Fortescue Operations (182.93 Mt total); includes Cloudbreak and Christmas Creek mines"
+  },
+  {
+    "id": "fortescue-solomon-hub",
+    "type": "mine",
+    "name": "Fortescue Solomon Hub (Kings Valley & Firetail)",
+    "location": {
+      "name": "60km north of Tom Price, Pilbara, Western Australia",
+      "coordinates": { "lat": -22.18, "lng": 117.52 }
+    },
+    "country": "AU",
+    "capacity": { "amount": 83, "unit": "Mt", "year": 2023 },
+    "ownedBy": [
+      { "companyId": "fortescue", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "MINING.COM / Global Energy Monitor 2023",
+    "notes": "Part of Fortescue Operations; includes Kings Valley and Firetail mines"
+  },
+  {
+    "id": "bhp-area-c-south-flank",
+    "type": "mine",
+    "name": "BHP Mining Area C & South Flank",
+    "location": {
+      "name": "120km NW of Newman, Pilbara, Western Australia",
+      "coordinates": { "lat": -22.92, "lng": 118.97 }
+    },
+    "country": "AU",
+    "capacity": { "amount": 145, "unit": "Mt", "year": 2023 },
+    "ownedBy": [
+      { "companyId": "bhp", "percentage": 85 },
+      { "companyId": "itochu", "percentage": 8 },
+      { "companyId": "mitsui-iron", "percentage": 7 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "MINING.COM / BHP Corporate 2023",
+    "notes": "Largest operating iron ore hub in the world; South Flank is Australia's largest new mine in 50 years"
+  },
+  {
+    "id": "bhp-newman-jimblebar",
+    "type": "mine",
+    "name": "BHP Newman & Jimblebar Hub",
+    "location": {
+      "name": "Newman, Pilbara, Western Australia",
+      "coordinates": { "lat": -23.36, "lng": 119.67 }
+    },
+    "country": "AU",
+    "capacity": { "amount": 132, "unit": "Mt", "year": 2023 },
+    "ownedBy": [
+      { "companyId": "bhp", "percentage": 85 },
+      { "companyId": "mitsui-itochu-iron", "percentage": 10 },
+      { "companyId": "itochu-minerals", "percentage": 5 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "MINING.COM Top 20 Iron Ore Operations 2023",
+    "notes": "Includes Mount Whaleback (world's largest single-pit open-pit iron ore mine) and Jimblebar"
+  },
+  {
+    "id": "bhp-yandi",
+    "type": "mine",
+    "name": "BHP Yandi Mine",
+    "location": {
+      "name": "90km NW of Newman, Pilbara, Western Australia",
+      "coordinates": { "lat": -22.73, "lng": 119.12 }
+    },
+    "country": "AU",
+    "capacity": { "amount": 80, "unit": "Mt", "year": 2023 },
+    "ownedBy": [
+      { "companyId": "bhp", "percentage": 85 },
+      { "companyId": "itochu", "percentage": 8 },
+      { "companyId": "mitsui-iron", "percentage": 7 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "Global Energy Monitor / BHP Corporate 2023",
+    "notes": "Opened in 1991 on Banjima country"
+  },
+  {
+    "id": "rio-tinto-hope-downs",
+    "type": "mine",
+    "name": "Rio Tinto Hope Downs & West Angelas",
+    "location": {
+      "name": "100km NW of Newman, Pilbara, Western Australia",
+      "coordinates": { "lat": -22.96, "lng": 119.13 }
+    },
+    "country": "AU",
+    "capacity": { "amount": 81, "unit": "Mt", "year": 2023 },
+    "ownedBy": [
+      { "companyId": "rio-tinto", "percentage": 53 },
+      { "companyId": "hancock-prospecting", "percentage": 47 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "MINING.COM Top 20 Iron Ore Operations 2023",
+    "notes": "Joint venture between Rio Tinto and Hancock Group; includes Hope Downs 1, 4 and West Angelas"
+  },
+  {
+    "id": "rio-tinto-yandicoogina",
+    "type": "mine",
+    "name": "Rio Tinto Yandicoogina Mine",
+    "location": {
+      "name": "95km NW of Newman, Pilbara, Western Australia",
+      "coordinates": { "lat": -22.78, "lng": 119.20 }
+    },
+    "country": "AU",
+    "capacity": { "amount": 51, "unit": "Mt", "year": 2023 },
+    "ownedBy": [
+      { "companyId": "rio-tinto", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "Mining Technology / Global Energy Monitor 2023",
+    "notes": "Operated by Hamersley Iron Pty Ltd, fully owned subsidiary of Rio Tinto"
+  },
+  {
+    "id": "carajas-s11d",
+    "type": "mine",
+    "name": "Carajas S11D (Serra Sul)",
+    "location": {
+      "name": "Canaa dos Carajas, Para, Brazil",
+      "coordinates": { "lat": -6.39, "lng": -50.32 }
+    },
+    "country": "BR",
+    "capacity": { "amount": 90, "unit": "Mt", "year": 2023 },
+    "ownedBy": [
+      { "companyId": "vale", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "Vale Corporate / Wikipedia 2023",
+    "notes": "World's largest iron ore project; uses truckless mining with conveyors, reducing diesel by 70% and water by 93%"
+  },
+  {
+    "id": "vale-vargem-grande",
+    "type": "mine",
+    "name": "Vale Vargem Grande Complex",
+    "location": {
+      "name": "Nova Lima, Minas Gerais, Brazil",
+      "coordinates": { "lat": -20.08, "lng": -43.85 }
+    },
+    "country": "BR",
+    "capacity": { "amount": 31, "unit": "Mt", "year": 2023 },
+    "ownedBy": [
+      { "companyId": "vale", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "MINING.COM Top 20 Iron Ore Operations 2023",
+    "notes": "Mining complex comprising five mines in the Iron Quadrangle (Quadrilatero Ferrifero)"
+  },
+  {
+    "id": "sishen",
+    "type": "mine",
+    "name": "Sishen Mine",
+    "location": {
+      "name": "Kathu, Northern Cape, South Africa",
+      "coordinates": { "lat": -27.74, "lng": 23.00 }
+    },
+    "country": "ZA",
+    "capacity": { "amount": 29, "unit": "Mt", "year": 2023 },
+    "ownedBy": [
+      { "companyId": "kumba-iron-ore", "percentage": 73 },
+      { "companyId": "sioc-public", "percentage": 27 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "MINING.COM Top 20 Iron Ore Operations 2023",
+    "notes": "One of the largest open pit mines in the world; reserves of 2.43 billion tonnes at 58.6% Fe"
+  },
+  {
+    "id": "vale-itabira",
+    "type": "mine",
+    "name": "Vale Itabira Complex",
+    "location": {
+      "name": "Itabira, Minas Gerais, Brazil",
+      "coordinates": { "lat": -19.62, "lng": -43.25 }
+    },
+    "country": "BR",
+    "capacity": { "amount": 28, "unit": "Mt", "year": 2023 },
+    "ownedBy": [
+      { "companyId": "vale", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "MINING.COM Top 20 Iron Ore Operations 2023",
+    "notes": "Historic mining district; Itabira is considered the 'mother city' of Vale"
+  },
+  {
+    "id": "lkab-kiruna",
+    "type": "mine",
+    "name": "LKAB Kiruna Mine",
+    "location": {
+      "name": "Kiruna, Norrbotten County, Sweden",
+      "coordinates": { "lat": 67.85, "lng": 20.19 }
+    },
+    "country": "SE",
+    "capacity": { "amount": 27, "unit": "Mt", "year": 2023 },
+    "ownedBy": [
+      { "companyId": "lkab", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "underground",
+    "source": "MINING.COM Top 20 Iron Ore Operations / LKAB Corporate 2023",
+    "notes": "World's largest underground iron ore mine; ore body is 4km long, 80-120m thick, up to 2km deep; site of largest rare earth discovery in Europe (2023)"
+  },
+  {
+    "id": "arcelormittal-mont-wright",
+    "type": "mine",
+    "name": "ArcelorMittal Mont-Wright Mine",
+    "location": {
+      "name": "Fermont, Quebec, Canada",
+      "coordinates": { "lat": 52.36, "lng": -67.36 }
+    },
+    "country": "CA",
+    "capacity": { "amount": 26, "unit": "Mt", "year": 2023 },
+    "ownedBy": [
+      { "companyId": "arcelormittal", "percentage": 100 }
+    ],
+    "feedsTo": ["arcelormittal-mont-wright-pellet"],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "MINING.COM Top 20 Iron Ore Operations / ArcelorMittal Corporate 2023",
+    "notes": "Largest open-pit iron deposit in Canada; 24 sq km; reserves confirmed to 2051; deepest pit 450m"
+  },
+  {
+    "id": "baowu-baoshan",
+    "type": "blast_furnace",
+    "name": "Baowu Baoshan Iron & Steel Works",
+    "location": {
+      "name": "Baoshan District, Shanghai, China",
+      "coordinates": { "lat": 31.40, "lng": 121.48 }
+    },
+    "country": "CN",
+    "capacity": { "amount": 14, "unit": "Mt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "china-baowu", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "integrated",
+    "source": "Global Energy Monitor / Wood Mackenzie 2024",
+    "status": "operating",
+    "notes": "Has 4 blast furnaces each ~5,000 m³; No.2 BF capacity 3.8 Mt/year; total integrated crude steel capacity 14 Mt/year"
+  },
+  {
+    "id": "baowu-zhanjiang",
+    "type": "blast_furnace",
+    "name": "Baowu Zhanjiang Iron & Steel",
+    "location": {
+      "name": "Zhanjiang, Guangdong, China",
+      "coordinates": { "lat": 21.06, "lng": 110.49 }
+    },
+    "country": "CN",
+    "capacity": { "amount": 12.5, "unit": "Mt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "china-baowu", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "integrated",
+    "source": "Global Energy Monitor / China Hydrogen 2024",
+    "status": "operating",
+    "notes": "Three 5,050 m³ blast furnaces; 4.1 Mt/year each; total molten iron capacity 12.25 Mt/year at full operation; includes 1 Mt/year hydrogen-based DRI plant"
+  },
+  {
+    "id": "posco-pohang",
+    "type": "blast_furnace",
+    "name": "POSCO Pohang Steel Works",
+    "location": {
+      "name": "Pohang, North Gyeongsang, South Korea",
+      "coordinates": { "lat": 36.01, "lng": 129.39 }
+    },
+    "country": "KR",
+    "capacity": { "amount": 9.1, "unit": "Mt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "posco", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "integrated",
+    "source": "Global Energy Monitor / POSCO Corporate 2024",
+    "status": "operating",
+    "notes": "Operates 3 blast furnaces (BF No.1 shut down 2021); BF No.3 has 5,600 m³ capacity; BF No.4 has 5.3 Mt/year capacity, modernized 2024"
+  },
+  {
+    "id": "posco-gwangyang",
+    "type": "blast_furnace",
+    "name": "POSCO Gwangyang Steel Works",
+    "location": {
+      "name": "Gwangyang, South Jeolla, South Korea",
+      "coordinates": { "lat": 34.92, "lng": 127.75 }
+    },
+    "country": "KR",
+    "capacity": { "amount": 18, "unit": "Mt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "posco", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "integrated",
+    "source": "Global Energy Monitor / Climate TRACE 2024",
+    "status": "operating",
+    "notes": "Houses 5 of world's 14 largest blast furnaces; BF No.1 is 6,000 m³ (largest in world); BF No.3 is 5,500 m³ (4.6 Mt/year); world's highest-emitting steel plant"
+  },
+  {
+    "id": "nippon-steel-kimitsu",
+    "type": "blast_furnace",
+    "name": "Nippon Steel East Japan Works (Kimitsu)",
+    "location": {
+      "name": "Kimitsu, Chiba, Japan",
+      "coordinates": { "lat": 35.36, "lng": 139.88 }
+    },
+    "country": "JP",
+    "capacity": { "amount": 8.5, "unit": "Mt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "nippon-steel", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "integrated",
+    "source": "Global Energy Monitor / Nippon Steel Corporate 2024",
+    "status": "operating",
+    "notes": "Established 1965; operates blast furnace and basic oxygen furnace technology"
+  },
+  {
+    "id": "jfe-fukuyama",
+    "type": "blast_furnace",
+    "name": "JFE West Japan Works (Fukuyama)",
+    "location": {
+      "name": "Fukuyama, Hiroshima, Japan",
+      "coordinates": { "lat": 34.47, "lng": 133.43 }
+    },
+    "country": "JP",
+    "capacity": { "amount": 10, "unit": "Mt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "jfe-steel", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "integrated",
+    "source": "Global Energy Monitor / JFE Steel Corporate 2024",
+    "status": "operating",
+    "notes": "Established October 1965; BF No.3 expanded from 3,223 to 4,300 m³; operates blast furnace, DRI, and basic oxygen furnace technology"
+  },
+  {
+    "id": "tata-steel-jamshedpur",
+    "type": "blast_furnace",
+    "name": "Tata Steel Jamshedpur Works",
+    "location": {
+      "name": "Jamshedpur, Jharkhand, India",
+      "coordinates": { "lat": 22.78, "lng": 86.20 }
+    },
+    "country": "IN",
+    "capacity": { "amount": 11, "unit": "Mt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "tata-steel", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "integrated",
+    "source": "Tata Steel Corporate / Global Energy Monitor 2024",
+    "status": "operating",
+    "notes": "H Blast Furnace has 3,814 m³ inner volume, 2.5 Mt/year capacity; commissioned 2008, exceeded 50 million tonnes lifetime production in 2025"
+  },
+  {
+    "id": "csn-volta-redonda",
+    "type": "blast_furnace",
+    "name": "CSN Presidente Vargas Steelworks",
+    "location": {
+      "name": "Volta Redonda, Rio de Janeiro, Brazil",
+      "coordinates": { "lat": -22.52, "lng": -44.10 }
+    },
+    "country": "BR",
+    "capacity": { "amount": 5.4, "unit": "Mt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "csn", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "integrated",
+    "source": "Global Energy Monitor / CSN Corporate 2024",
+    "status": "operating",
+    "notes": "Brazil's largest fully integrated steel producer; total CSN crude steel capacity 5.6 Mt/year; BF No.2 (1.5 Mt/year) was idled January 2025; testing hydrogen injection"
+  }
+]

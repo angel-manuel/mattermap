@@ -31,21 +31,48 @@
     appState.selectedEntity !== null && !isSelected
   );
 
-  // Create icon HTML for square marker
+  // Check if smelter has silver (Ag) byproduct
+  const hasAg = $derived(
+    smelter.byproducts?.some(bp => bp.metal === 'Ag') ?? false
+  );
+
+  // Create icon HTML for square marker with optional Ag badge
   const iconHtml = $derived(() => {
     const s = size();
     const opacity = isDimmed ? 0.2 : 0.8;
     const borderWidth = isSelected ? 3 : 1;
     const borderColor = isSelected ? '#1e40af' : '#2563eb';
+    const badgeSize = Math.max(12, s * 0.4);
+    const badgeOpacity = isDimmed ? 0.3 : 1;
+
+    const agBadge = hasAg ? `<div style="
+      position: absolute;
+      bottom: -${badgeSize * 0.3}px;
+      right: -${badgeSize * 0.3}px;
+      width: ${badgeSize}px;
+      height: ${badgeSize}px;
+      background: #C0C0C0;
+      border: 1px solid #9CA3AF;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: ${Math.max(7, badgeSize * 0.55)}px;
+      font-weight: 700;
+      color: #374151;
+      opacity: ${badgeOpacity};
+      transform: rotate(-45deg);
+    ">Ag</div>` : '';
 
     return `<div style="
+      position: relative;
       width: ${s}px;
       height: ${s}px;
       background: rgba(59, 130, 246, ${opacity});
       border: ${borderWidth}px solid ${borderColor};
       transform: rotate(45deg);
       box-shadow: ${isSelected ? '0 0 8px rgba(59, 130, 246, 0.5)' : 'none'};
-    "></div>`;
+    ">${agBadge}</div>`;
   });
 
   // Icon options
@@ -65,6 +92,13 @@
     if (!smelter.capacity) return '';
     return `${smelter.capacity.amount} ${smelter.capacity.unit}/year capacity`;
   });
+
+  // Get Ag production for tooltip
+  const agProduction = $derived(() => {
+    const ag = smelter.byproducts?.find(bp => bp.metal === 'Ag');
+    if (!ag) return null;
+    return `${ag.amount} ${ag.unit} Ag/year${ag.estimated ? ' (est.)' : ''}`;
+  });
 </script>
 
 <Marker
@@ -77,6 +111,9 @@
       <strong>{smelter.name}</strong>
       {#if smelter.capacity}
         <br><span class="capacity">{capacityText()}</span>
+      {/if}
+      {#if agProduction()}
+        <br><span class="byproduct">+ {agProduction()}</span>
       {/if}
     </div>
   </Tooltip>
@@ -96,5 +133,11 @@
   .capacity {
     color: #666;
     font-size: 11px;
+  }
+
+  .byproduct {
+    color: #9CA3AF;
+    font-size: 10px;
+    font-style: italic;
   }
 </style>

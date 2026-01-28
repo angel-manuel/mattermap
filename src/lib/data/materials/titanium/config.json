@@ -1,0 +1,53 @@
+{
+  "id": "titanium",
+  "name": "Titanium",
+  "symbol": "Ti",
+  "color": "#818cf8",
+  "description": "Titanium ore mining, pigment production, and metal sponge",
+  "facilityTypes": [
+    {
+      "id": "mine",
+      "name": "Mine",
+      "namePlural": "Mines",
+      "icon": "●",
+      "color": "#a78bfa",
+      "shape": "circle",
+      "capacityUnit": "kt/year",
+      "capacityLabel": "Production",
+      "canFeedTo": ["upgrading_plant"]
+    },
+    {
+      "id": "upgrading_plant",
+      "name": "Upgrading Plant",
+      "namePlural": "Upgrading Plants",
+      "icon": "◇",
+      "color": "#c4b5fd",
+      "shape": "diamond",
+      "capacityUnit": "kt/year",
+      "capacityLabel": "Capacity",
+      "canFeedTo": ["pigment_plant", "sponge_plant"]
+    },
+    {
+      "id": "pigment_plant",
+      "name": "Pigment Plant",
+      "namePlural": "Pigment Plants",
+      "icon": "■",
+      "color": "#f0f0f0",
+      "shape": "square",
+      "capacityUnit": "kt/year",
+      "capacityLabel": "Capacity",
+      "canFeedTo": []
+    },
+    {
+      "id": "sponge_plant",
+      "name": "Sponge Plant",
+      "namePlural": "Sponge Plants",
+      "icon": "▲",
+      "color": "#6366f1",
+      "shape": "triangle",
+      "capacityUnit": "kt/year",
+      "capacityLabel": "Capacity",
+      "canFeedTo": ["melting_facility"]
+    }
+  ]
+}

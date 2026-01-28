@@ -1,0 +1,89 @@
+[
+  {
+    "id": "newmont",
+    "name": "Newmont Corporation",
+    "hqLocation": {
+      "name": "Denver, Colorado, USA",
+      "coordinates": { "lat": 39.74, "lng": -104.99 }
+    },
+    "country": "US",
+    "website": "https://www.newmont.com",
+    "source": "Newmont Corporate"
+  },
+  {
+    "id": "barrick",
+    "name": "Barrick Gold Corporation",
+    "hqLocation": {
+      "name": "Toronto, Canada",
+      "coordinates": { "lat": 43.65, "lng": -79.38 }
+    },
+    "country": "CA",
+    "website": "https://www.barrick.com",
+    "source": "Barrick Corporate"
+  },
+  {
+    "id": "polyus",
+    "name": "Polyus Gold",
+    "hqLocation": {
+      "name": "Moscow, Russia",
+      "coordinates": { "lat": 55.76, "lng": 37.62 }
+    },
+    "country": "RU",
+    "website": "https://www.polyus.com",
+    "source": "Polyus Corporate"
+  },
+  {
+    "id": "navoi-mining",
+    "name": "Navoi Mining & Metallurgy Combinat",
+    "hqLocation": {
+      "name": "Navoi, Uzbekistan",
+      "coordinates": { "lat": 40.08, "lng": 65.38 }
+    },
+    "country": "UZ",
+    "source": "Navoi Mining Corporate"
+  },
+  {
+    "id": "agnico-eagle",
+    "name": "Agnico Eagle Mines",
+    "hqLocation": {
+      "name": "Toronto, Canada",
+      "coordinates": { "lat": 43.65, "lng": -79.38 }
+    },
+    "country": "CA",
+    "website": "https://www.agnicoeagle.com",
+    "source": "Agnico Eagle Corporate"
+  },
+  {
+    "id": "anglogold-ashanti",
+    "name": "AngloGold Ashanti",
+    "hqLocation": {
+      "name": "Johannesburg, South Africa",
+      "coordinates": { "lat": -26.20, "lng": 28.04 }
+    },
+    "country": "ZA",
+    "website": "https://www.anglogoldashanti.com",
+    "source": "AngloGold Ashanti Corporate"
+  },
+  {
+    "id": "gold-fields",
+    "name": "Gold Fields",
+    "hqLocation": {
+      "name": "Johannesburg, South Africa",
+      "coordinates": { "lat": -26.20, "lng": 28.04 }
+    },
+    "country": "ZA",
+    "website": "https://www.goldfields.com",
+    "source": "Gold Fields Corporate"
+  },
+  {
+    "id": "kinross",
+    "name": "Kinross Gold Corporation",
+    "hqLocation": {
+      "name": "Toronto, Canada",
+      "coordinates": { "lat": 43.65, "lng": -79.38 }
+    },
+    "country": "CA",
+    "website": "https://www.kinross.com",
+    "source": "Kinross Corporate"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "tronox",
+    "name": "Tronox Holdings",
+    "hqLocation": {
+      "name": "Stamford, Connecticut, USA",
+      "coordinates": { "lat": 41.05, "lng": -73.54 }
+    },
+    "country": "US",
+    "website": "https://www.tronox.com",
+    "source": "Tronox Corporate"
+  },
+  {
+    "id": "rio-tinto",
+    "name": "Rio Tinto",
+    "hqLocation": {
+      "name": "London, United Kingdom",
+      "coordinates": { "lat": 51.51, "lng": -0.13 }
+    },
+    "country": "GB",
+    "website": "https://www.riotinto.com",
+    "source": "Rio Tinto Corporate"
+  },
+  {
+    "id": "iluka",
+    "name": "Iluka Resources",
+    "hqLocation": {
+      "name": "Perth, Australia",
+      "coordinates": { "lat": -31.95, "lng": 115.86 }
+    },
+    "country": "AU",
+    "website": "https://www.iluka.com",
+    "source": "Iluka Corporate"
+  },
+  {
+    "id": "kenmare",
+    "name": "Kenmare Resources",
+    "hqLocation": {
+      "name": "Dublin, Ireland",
+      "coordinates": { "lat": 53.35, "lng": -6.26 }
+    },
+    "country": "IE",
+    "website": "https://www.kenmareresources.com",
+    "source": "Kenmare Corporate"
+  },
+  {
+    "id": "chemours",
+    "name": "The Chemours Company",
+    "hqLocation": {
+      "name": "Wilmington, Delaware, USA",
+      "coordinates": { "lat": 39.74, "lng": -75.55 }
+    },
+    "country": "US",
+    "website": "https://www.chemours.com",
+    "source": "Chemours Corporate"
+  },
+  {
+    "id": "vsmpo-avisma",
+    "name": "VSMPO-AVISMA Corporation",
+    "hqLocation": {
+      "name": "Verkhnaya Salda, Russia",
+      "coordinates": { "lat": 58.05, "lng": 60.57 }
+    },
+    "country": "RU",
+    "website": "https://www.vsmpo.ru",
+    "source": "VSMPO-AVISMA Corporate"
+  }
+]

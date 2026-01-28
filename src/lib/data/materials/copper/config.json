@@ -1,0 +1,31 @@
+{
+  "id": "copper",
+  "name": "Copper",
+  "symbol": "Cu",
+  "color": "#B87333",
+  "description": "Global copper extraction, smelting, and refining",
+  "facilityTypes": [
+    {
+      "id": "mine",
+      "name": "Mine",
+      "namePlural": "Mines",
+      "icon": "●",
+      "color": "#22c55e",
+      "shape": "circle",
+      "capacityUnit": "kt/year",
+      "capacityLabel": "Production",
+      "canFeedTo": ["smelter"]
+    },
+    {
+      "id": "smelter",
+      "name": "Smelter",
+      "namePlural": "Smelters",
+      "icon": "◆",
+      "color": "#3b82f6",
+      "shape": "diamond",
+      "capacityUnit": "kt/year",
+      "capacityLabel": "Capacity",
+      "canFeedTo": []
+    }
+  ]
+}

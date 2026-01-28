@@ -1,0 +1,31 @@
+{
+  "id": "gold",
+  "name": "Gold",
+  "symbol": "Au",
+  "color": "#fbbf24",
+  "description": "Gold mining, doré production, and refining",
+  "facilityTypes": [
+    {
+      "id": "mine",
+      "name": "Mine",
+      "namePlural": "Mines",
+      "icon": "●",
+      "color": "#fbbf24",
+      "shape": "circle",
+      "capacityUnit": "Moz/year",
+      "capacityLabel": "Production",
+      "canFeedTo": ["refinery"]
+    },
+    {
+      "id": "refinery",
+      "name": "Refinery",
+      "namePlural": "Refineries",
+      "icon": "◆",
+      "color": "#f59e0b",
+      "shape": "diamond",
+      "capacityUnit": "t/year",
+      "capacityLabel": "Capacity",
+      "canFeedTo": []
+    }
+  ]
+}

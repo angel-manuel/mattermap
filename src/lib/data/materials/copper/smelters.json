@@ -23,7 +23,17 @@
       { "mineId": "salobo", "source": "inferred: typical trade flow - Brazil to China" }
     ],
     "owner": "jiangxi-copper",
-    "source": "Statista Global Copper Refineries 2024"
+    "source": "Statista Global Copper Refineries 2024",
+    "byproducts": [
+      {
+        "metal": "Ag",
+        "amount": 396,
+        "unit": "t",
+        "year": 2024,
+        "estimated": true,
+        "source": "Estimated: 1,100kt Cu capacity × 0.0004 × 0.90; Jiangxi Copper does not publish direct Ag data"
+      }
+    ]
   },
   {
     "id": "shandong-fangyuan",
@@ -95,7 +105,17 @@
       { "mineId": "spence", "source": "inferred: typical trade flow - Chile to Japan" }
     ],
     "owner": "sumitomo-metal-mining",
-    "source": "Sumitomo Metal Mining Corporate Data"
+    "source": "Sumitomo Metal Mining Corporate Data",
+    "byproducts": [
+      {
+        "metal": "Ag",
+        "amount": 215,
+        "unit": "t",
+        "year": 2024,
+        "estimated": false,
+        "source": "Sumitomo Metal Mining Production Guidance 2024 - 215,000 kg silver"
+      }
+    ]
   },
   {
     "id": "saganoseki",
@@ -114,7 +134,17 @@
       { "mineId": "los-pelambres", "percentage": 50, "source": "Nippon Mining & Metals and Mitsubishi Materials take ~50% of concentrate - Mining Technology" }
     ],
     "owner": "jx-nippon",
-    "source": "JX Nippon Mining & Metals Corporate Data"
+    "source": "JX Nippon Mining & Metals Corporate Data",
+    "byproducts": [
+      {
+        "metal": "Ag",
+        "amount": 200,
+        "unit": "t",
+        "year": 2022,
+        "estimated": false,
+        "source": "JX Advanced Metals corporate data - 200 tonnes annual silver production (group)"
+      }
+    ]
   },
   {
     "id": "aurubis-hamburg",
@@ -133,7 +163,17 @@
     ],
     "owner": "aurubis",
     "source": "Aurubis Annual Report 2023",
-    "notes": "Long-term supply contracts with Quebrada Blanca (Teck/Chile) and Codelco - Aurubis 2019/2024"
+    "notes": "Long-term supply contracts with Quebrada Blanca (Teck/Chile) and Codelco - Aurubis 2019/2024",
+    "byproducts": [
+      {
+        "metal": "Ag",
+        "amount": 500,
+        "unit": "t",
+        "year": 2024,
+        "estimated": true,
+        "source": "Aurubis Interim Report 6M 2023/24 - 492t H1; group total ~1000t, Hamburg estimated 50%"
+      }
+    ]
   },
   {
     "id": "chuquicamata-smelter",
@@ -151,7 +191,17 @@
     ],
     "owner": "codelco",
     "source": "Codelco Annual Report",
-    "notes": "Capacity to process 1.4 million tons of concentrate per year - Wikipedia"
+    "notes": "Capacity to process 1.4 million tons of concentrate per year - Wikipedia",
+    "byproducts": [
+      {
+        "metal": "Ag",
+        "amount": 177,
+        "unit": "t",
+        "year": 2024,
+        "estimated": false,
+        "source": "Codelco Operational Report Dec 2024 - 5.7 Moz (177t), down from 253t in 2023"
+      }
+    ]
   },
   {
     "id": "yunnan-copper",
@@ -230,7 +280,25 @@
     ],
     "owner": "bhp",
     "source": "BHP Annual Report",
-    "notes": "BHP Copper SA province: receives concentrate from Prominent Hill and Carrapateena too - BHP 2024"
+    "notes": "BHP Copper SA province: receives concentrate from Prominent Hill and Carrapateena too - BHP 2024",
+    "byproducts": [
+      {
+        "metal": "Ag",
+        "amount": 121,
+        "unit": "t",
+        "year": 2024,
+        "estimated": true,
+        "source": "BHP Operational Review FY24; estimated using formula + premium for high Ag content (6g/t ore)"
+      },
+      {
+        "metal": "Au",
+        "amount": 4.2,
+        "unit": "t",
+        "year": 2024,
+        "estimated": false,
+        "source": "BHP Operational Review FY24 - Olympic Dam gold production"
+      }
+    ]
   },
   {
     "id": "mt-isa-smelter",
@@ -264,6 +332,16 @@
     ],
     "owner": "glencore",
     "source": "Glencore Annual Report",
-    "notes": "Only copper smelter in Canada; processes ~740kt concentrate/year from mines worldwide - Glencore Canada"
+    "notes": "Only copper smelter in Canada; processes ~740kt concentrate/year from mines worldwide - Glencore Canada",
+    "byproducts": [
+      {
+        "metal": "Ag",
+        "amount": 76,
+        "unit": "t",
+        "year": 2024,
+        "estimated": true,
+        "source": "Estimated: 210kt Cu × 0.0004 × 0.90; Glencore global = 600t/year (19.3 Moz)"
+      }
+    ]
   }
 ]

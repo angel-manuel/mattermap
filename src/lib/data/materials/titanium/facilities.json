@@ -1,0 +1,715 @@
+[
+  {
+    "id": "richards-bay-minerals",
+    "type": "mine",
+    "name": "Richards Bay Minerals (RBM)",
+    "location": {
+      "name": "Richards Bay, KwaZulu-Natal, South Africa",
+      "coordinates": { "lat": -28.78, "lng": 32.04 }
+    },
+    "country": "ZA",
+    "capacity": { "amount": 990, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "rio-tinto", "percentage": 74 },
+      { "companyId": "blue-horizon", "percentage": 24 },
+      { "companyId": "rbm-employee-trust", "percentage": 2 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "mineral-sands",
+    "source": "Rio Tinto Corporate / USGS Mineral Commodity Summaries 2025",
+    "status": "operating",
+    "notes": "World leader in heavy mineral sands extraction; produces ~25% of world's titanium (titania slag and rutile) and 33% of zircon; operates 4 mines in Zulti North lease area"
+  },
+  {
+    "id": "kenmare-moma",
+    "type": "mine",
+    "name": "Moma Titanium Minerals Mine",
+    "location": {
+      "name": "Larde District, Nampula Province, Mozambique",
+      "coordinates": { "lat": -16.53, "lng": 39.64 }
+    },
+    "country": "MZ",
+    "capacity": { "amount": 1200, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "kenmare-resources", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "mineral-sands",
+    "source": "Kenmare Resources / Mining Technology",
+    "status": "operating",
+    "notes": "One of the largest titanium minerals deposits in the world with 6.3 billion tons of mineral resources; 85% ilmenite, 5% zircon, 2% rutile; mine life of 100+ years"
+  },
+  {
+    "id": "tronox-kzn-sands",
+    "type": "mine",
+    "name": "Tronox KZN Sands (Fairbreeze Mine)",
+    "location": {
+      "name": "Mtunzini, KwaZulu-Natal, South Africa",
+      "coordinates": { "lat": -29.05, "lng": 31.70 }
+    },
+    "country": "ZA",
+    "capacity": { "amount": 300, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "tronox", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "mineral-sands",
+    "source": "Tronox Corporate / Mining Data Online",
+    "status": "operating",
+    "notes": "1,036-acre Fairbreeze mine produces high-quality ilmenite for KZN Sands Central Processing Complex smelters in Empangeni; life-of-mine to 2037"
+  },
+  {
+    "id": "tronox-namakwa-sands",
+    "type": "mine",
+    "name": "Tronox Namakwa Sands",
+    "location": {
+      "name": "Brand-se-Baai, Western Cape, South Africa",
+      "coordinates": { "lat": -31.29, "lng": 17.89 }
+    },
+    "country": "ZA",
+    "capacity": { "amount": 400, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "tronox", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "mineral-sands",
+    "source": "Tronox Corporate / Mindat.org",
+    "status": "operating",
+    "notes": "385km north of Cape Town; uses dry mining techniques; reserves of 500 million tons of ore at 10% heavy minerals; products transported 270km to Saldanha Bay smelter"
+  },
+  {
+    "id": "qmm-mandena",
+    "type": "mine",
+    "name": "QIT Madagascar Minerals (QMM) - Mandena Mine",
+    "location": {
+      "name": "Fort Dauphin (Taolagnaro), Anosy Region, Madagascar",
+      "coordinates": { "lat": -24.98, "lng": 47.03 }
+    },
+    "country": "MG",
+    "capacity": { "amount": 750, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "rio-tinto", "percentage": 80 },
+      { "companyId": "madagascar-government", "percentage": 20 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "mineral-sands",
+    "source": "Rio Tinto Corporate / Wikipedia",
+    "status": "operating",
+    "notes": "Produces ilmenite, zirsill, and monazite; exports via Port of Ehoala to Rio Tinto Iron and Titanium Quebec Operations; project lifespan 40 years"
+  },
+  {
+    "id": "eramet-grande-cote",
+    "type": "mine",
+    "name": "Eramet Grande Cote Operations (GCO)",
+    "location": {
+      "name": "Diogo, Thies Region, Senegal",
+      "coordinates": { "lat": 15.30, "lng": -16.82 }
+    },
+    "country": "SN",
+    "capacity": { "amount": 883, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "eramet", "percentage": 90 },
+      { "companyId": "senegal-government", "percentage": 10 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "mineral-sands",
+    "source": "Eramet Corporate / USGS Mineral Commodity Summaries 2025",
+    "status": "operating",
+    "notes": "World's 4th largest mineral sands producer; 106km stretch along Atlantic coast; produces ilmenite 54 and ilmenite 58 grades; $800M infrastructure investment"
+  },
+  {
+    "id": "rio-tinto-lac-tio",
+    "type": "mine",
+    "name": "Rio Tinto Lac Tio Mine (Allard Lake)",
+    "location": {
+      "name": "Havre-Saint-Pierre, Quebec, Canada",
+      "coordinates": { "lat": 50.56, "lng": -63.41 }
+    },
+    "country": "CA",
+    "capacity": { "amount": 1100, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "rio-tinto", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "Rio Tinto Corporate / Mindat.org / Wikipedia",
+    "status": "operating",
+    "notes": "Largest solid ilmenite deposit in the world; largest open-pit mine in Quebec; ore transported 43km to Havre-Saint-Pierre then to Sorel-Tracy for processing"
+  },
+  {
+    "id": "titania-tellnes",
+    "type": "mine",
+    "name": "Tellnes Mine",
+    "location": {
+      "name": "Sokndal, Rogaland, Norway",
+      "coordinates": { "lat": 58.33, "lng": 6.42 }
+    },
+    "country": "NO",
+    "capacity": { "amount": 550, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "kronos-worldwide", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "Titania AS / Wikipedia / Mindat.org",
+    "status": "operating",
+    "notes": "Largest Ti-Fe orebody in Europe; second most important ilmenite orebody in production worldwide; ~12% of world's ilmenite resources; 60+ years of remaining mine life"
+  },
+  {
+    "id": "iluka-jacinth-ambrosia",
+    "type": "mine",
+    "name": "Iluka Jacinth-Ambrosia Mine",
+    "location": {
+      "name": "Eucla Basin, South Australia",
+      "coordinates": { "lat": -30.90, "lng": 132.18 }
+    },
+    "country": "AU",
+    "capacity": { "amount": 300, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "iluka-resources", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "mineral-sands",
+    "source": "Iluka Resources / Wikipedia / Mining Data Online",
+    "status": "operating",
+    "notes": "Largest zircon mine in the world (~25% of global zircon supply); also produces low-grade rutile and ilmenite; 800km from Adelaide, 270km from Port of Thevenard"
+  },
+  {
+    "id": "iluka-cataby",
+    "type": "mine",
+    "name": "Iluka Cataby Mine",
+    "location": {
+      "name": "Dandaragan, Western Australia",
+      "coordinates": { "lat": -30.74, "lng": 115.54 }
+    },
+    "country": "AU",
+    "capacity": { "amount": 370, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "iluka-resources", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "mineral-sands",
+    "source": "Iluka Resources / Mining Technology",
+    "status": "suspended",
+    "notes": "Predominantly chloride ilmenite deposit; 150km north of Perth; production suspended Dec 2025 due to subdued demand; 18 mining pits over 20km strike length"
+  },
+  {
+    "id": "sierra-rutile",
+    "type": "mine",
+    "name": "Sierra Rutile Mine",
+    "location": {
+      "name": "Moyamba District, Southern Province, Sierra Leone",
+      "coordinates": { "lat": 7.76, "lng": -12.31 }
+    },
+    "country": "SL",
+    "capacity": { "amount": 175, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "leonoil", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "mineral-sands",
+    "source": "Sierra Rutile / Wikipedia",
+    "status": "operating",
+    "notes": "World's largest natural rutile producer; 580 km2 mining lease; 19 identified deposits; includes Gangama, Taninahun, Gbeni and Lanti deposits"
+  },
+  {
+    "id": "panzhihua-vanadium-titanium",
+    "type": "mine",
+    "name": "Panzhihua Vanadium-Titanium Magnetite Operation",
+    "location": {
+      "name": "Panzhihua, Sichuan Province, China",
+      "coordinates": { "lat": 26.60, "lng": 101.72 }
+    },
+    "country": "CN",
+    "capacity": { "amount": 3300, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "pangang-group", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "open-pit",
+    "source": "USGS Mineral Commodity Summaries 2025 / The Diggings",
+    "status": "operating",
+    "notes": "World's largest vanadium-titanium magnetite deposit; 425M tons titanium reserves (93% of China's total); operated by Panzhihua Iron and Steel Co (Pangang Group); production since 1977"
+  },
+  {
+    "id": "tronox-wonnerup",
+    "type": "mine",
+    "name": "Tronox Wonnerup Mine",
+    "location": {
+      "name": "Busselton, Western Australia",
+      "coordinates": { "lat": -33.62, "lng": 115.42 }
+    },
+    "country": "AU",
+    "capacity": { "amount": 150, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "tronox", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "mineral-sands",
+    "source": "Tronox Corporate / MiningLink",
+    "status": "operating",
+    "notes": "Part of Tronox Western Australia operations (former Cable Sands/Cristal); 10km northeast of Busselton; feeds North Shore Mineral Separation Plant"
+  },
+  {
+    "id": "base-kwale",
+    "type": "mine",
+    "name": "Kwale Mineral Sands Mine",
+    "location": {
+      "name": "Kwale County, Kenya",
+      "coordinates": { "lat": -4.17, "lng": 39.46 }
+    },
+    "country": "KE",
+    "capacity": { "amount": 460, "unit": "kt", "year": 2023 },
+    "ownedBy": [
+      { "companyId": "energy-fuels", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "miningMethod": "mineral-sands",
+    "source": "Base Resources / Wikipedia",
+    "status": "closed",
+    "notes": "Ore reserve depleted December 2024; operated 2013-2024; accounted for 65% of Kenya's mining output; produced ~90kt rutile, 460kt ilmenite, 35kt zircon annually; acquired by Energy Fuels Oct 2024"
+  },
+  {
+    "id": "tronox-empangeni-smelter",
+    "type": "upgrading_plant",
+    "name": "Tronox KZN Sands Central Processing Complex",
+    "location": {
+      "name": "Empangeni, KwaZulu-Natal, South Africa",
+      "coordinates": { "lat": -28.75, "lng": 31.90 }
+    },
+    "country": "ZA",
+    "capacity": { "amount": 850, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "tronox", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [
+      { "targetId": "tronox-kzn-sands", "targetType": "mine", "percentage": 100 }
+    ],
+    "processType": "Electric arc furnace reduction",
+    "source": "Tronox Corporate / USGS Mineral Commodity Summaries",
+    "status": "operating",
+    "notes": "Two 36 MW furnaces reduce ilmenite into high-titania slag and pig iron; feeds from Fairbreeze Mine via Central Processing Complex; 700 employees"
+  },
+  {
+    "id": "tronox-saldanha-smelter",
+    "type": "upgrading_plant",
+    "name": "Tronox Namakwa Sands Smelter",
+    "location": {
+      "name": "Saldanha Bay, Western Cape, South Africa",
+      "coordinates": { "lat": -32.90, "lng": 17.97 }
+    },
+    "country": "ZA",
+    "capacity": { "amount": 190, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "tronox", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [
+      { "targetId": "tronox-namakwa-sands", "targetType": "mine", "percentage": 100 }
+    ],
+    "processType": "Electric arc furnace reduction",
+    "source": "Tronox Corporate",
+    "status": "operating",
+    "notes": "Ilmenite transported 270km by rail from Brand-se-Baai mine; produces titanium dioxide slag and pig iron; products dispatched globally via Port of Saldanha"
+  },
+  {
+    "id": "rio-tinto-sorel-tracy",
+    "type": "upgrading_plant",
+    "name": "Rio Tinto Iron and Titanium - Sorel-Tracy",
+    "location": {
+      "name": "Sorel-Tracy, Quebec, Canada",
+      "coordinates": { "lat": 46.04, "lng": -73.13 }
+    },
+    "country": "CA",
+    "capacity": { "amount": 1350, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "rio-tinto", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [
+      { "targetId": "rio-tinto-lac-tio", "targetType": "mine", "percentage": 80 },
+      { "targetId": "qmm-mandena", "targetType": "mine", "percentage": 20 }
+    ],
+    "processType": "Electric arc furnace reduction",
+    "source": "Rio Tinto Corporate / USGS Mineral Commodity Summaries",
+    "status": "operating",
+    "notes": "Leading manufacturer of titanium feedstocks supplying 19% of global demand; established 1950; produces SORELSLAG and UGS titanium slag plus liquid iron and pig iron; BlueSmelting demonstration plant reducing emissions 95%"
+  },
+  {
+    "id": "ineos-tyssedal",
+    "type": "upgrading_plant",
+    "name": "INEOS Tyssedal Ilmenite Smelter",
+    "location": {
+      "name": "Tyssedal, Vestland, Norway",
+      "coordinates": { "lat": 60.08, "lng": 6.49 }
+    },
+    "country": "NO",
+    "capacity": { "amount": 230, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "ineos", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [
+      { "targetId": "titania-tellnes", "targetType": "mine", "percentage": 100 }
+    ],
+    "processType": "Electric arc furnace reduction",
+    "source": "INEOS Corporate / Mineral Deposits",
+    "status": "operating",
+    "notes": "One of five ilmenite smelters in the world; only one in Europe; produces 230kt high-grade titanium slag and 90kt high-purity pig iron; acquired by INEOS from Eramet in 2024"
+  },
+  {
+    "id": "chemours-delisle",
+    "type": "pigment_plant",
+    "name": "Chemours DeLisle Plant",
+    "location": {
+      "name": "DeLisle, Mississippi, USA",
+      "coordinates": { "lat": 30.38, "lng": -89.27 }
+    },
+    "country": "US",
+    "capacity": { "amount": 180, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "chemours", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "Chloride process",
+    "source": "Chemours Corporate / Chemical Industry Reports",
+    "status": "operating",
+    "notes": "One of lowest environmental footprints among peer TiO2 sites globally; PCC Group building chlor-alkali facility at site starting 2026"
+  },
+  {
+    "id": "chemours-new-johnsonville",
+    "type": "pigment_plant",
+    "name": "Chemours New Johnsonville Plant",
+    "location": {
+      "name": "New Johnsonville, Tennessee, USA",
+      "coordinates": { "lat": 36.02, "lng": -87.97 }
+    },
+    "country": "US",
+    "capacity": { "amount": 160, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "chemours", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "Chloride process",
+    "source": "Chemours Corporate",
+    "status": "operating",
+    "notes": "Opened 1958; significantly reduced emissions as Ti-Pure TiO2 production has grown"
+  },
+  {
+    "id": "chemours-altamira",
+    "type": "pigment_plant",
+    "name": "Chemours Altamira Plant",
+    "location": {
+      "name": "Altamira, Tamaulipas, Mexico",
+      "coordinates": { "lat": 22.39, "lng": -97.94 }
+    },
+    "country": "MX",
+    "capacity": { "amount": 240, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "chemours", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "Chloride process",
+    "source": "Chemours Corporate",
+    "status": "operating",
+    "notes": "Serving markets since 1960; $600M+ investment significantly increased capacity starting 2016; resumed normal operations 2024 after temporary water restrictions"
+  },
+  {
+    "id": "kronos-leverkusen",
+    "type": "pigment_plant",
+    "name": "KRONOS TITAN Leverkusen",
+    "location": {
+      "name": "Leverkusen, North Rhine-Westphalia, Germany",
+      "coordinates": { "lat": 51.03, "lng": 7.02 }
+    },
+    "country": "DE",
+    "capacity": { "amount": 195, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "kronos-worldwide", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "Chloride process (165kt) and Sulfate process (30kt)",
+    "source": "Kronos Worldwide / Smart Delta Resources",
+    "status": "operating",
+    "notes": "Dual-process facility; 165kt chloride capacity and 30kt sulfate capacity"
+  },
+  {
+    "id": "kronos-nordenham",
+    "type": "pigment_plant",
+    "name": "KRONOS TITAN Nordenham",
+    "location": {
+      "name": "Nordenham, Lower Saxony, Germany",
+      "coordinates": { "lat": 53.48, "lng": 8.48 }
+    },
+    "country": "DE",
+    "capacity": { "amount": 60, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "kronos-worldwide", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "Sulfate process",
+    "source": "Kronos Worldwide",
+    "status": "operating",
+    "notes": "Expanded from 40kt to 60kt capacity; employs 350 people"
+  },
+  {
+    "id": "kronos-fredrikstad",
+    "type": "pigment_plant",
+    "name": "KRONOS TITAN Fredrikstad",
+    "location": {
+      "name": "Fredrikstad, Viken, Norway",
+      "coordinates": { "lat": 59.21, "lng": 10.94 }
+    },
+    "country": "NO",
+    "capacity": { "amount": 85, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "kronos-worldwide", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "Sulfate process",
+    "source": "Kronos Worldwide",
+    "status": "operating",
+    "notes": "World's first TiO2 factory built 1916; only TiO2 producer in Scandinavia; total Kronos production: 560kt TiO2 annually across all facilities"
+  },
+  {
+    "id": "tronox-hamilton",
+    "type": "pigment_plant",
+    "name": "Tronox Hamilton Plant",
+    "location": {
+      "name": "Hamilton, Mississippi, USA",
+      "coordinates": { "lat": 33.77, "lng": -88.39 }
+    },
+    "country": "US",
+    "capacity": { "amount": 220, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "tronox", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "Chloride process",
+    "source": "Tronox Corporate",
+    "status": "operating",
+    "notes": "Tronox's largest TiO2 plant with 60+ years operational success"
+  },
+  {
+    "id": "tronox-bahia",
+    "type": "pigment_plant",
+    "name": "Tronox Bahia Plant",
+    "location": {
+      "name": "Camaçari, Bahia, Brazil",
+      "coordinates": { "lat": -12.70, "lng": -38.32 }
+    },
+    "country": "BR",
+    "capacity": { "amount": 75, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "tronox", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "Sulfate process",
+    "source": "Tronox Corporate",
+    "status": "operating",
+    "notes": "Only integrated TiO2 plant in South America using sulfate process"
+  },
+  {
+    "id": "lomon-billions-jiaozuo",
+    "type": "pigment_plant",
+    "name": "Lomon Billions Jiaozuo Complex",
+    "location": {
+      "name": "Jiaozuo, Henan Province, China",
+      "coordinates": { "lat": 35.24, "lng": 113.21 }
+    },
+    "country": "CN",
+    "capacity": { "amount": 500, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "lomon-billions", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "Chloride process",
+    "source": "Lomon Billions Corporate / Polyestertime",
+    "status": "operating",
+    "notes": "Two new chloride lines under construction adding 200kt capacity; world's No.1 TiO2 pigment producer by capacity with 1M+ tonnes annual production across all sites"
+  },
+  {
+    "id": "lomon-billions-chuxiong",
+    "type": "pigment_plant",
+    "name": "Lomon Billions Chuxiong Plant",
+    "location": {
+      "name": "Chuxiong, Yunnan Province, China",
+      "coordinates": { "lat": 25.05, "lng": 101.55 }
+    },
+    "country": "CN",
+    "capacity": { "amount": 60, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "lomon-billions", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "Chloride process",
+    "source": "Lomon Billions Corporate / SpecialChem",
+    "status": "operating",
+    "notes": "Recently acquired and re-opened; expansion plans to 300kt TiO2, 200kt titanium slag, 50kt titanium sponge; integrated facility"
+  },
+  {
+    "id": "vsmpo-avisma-berezniki",
+    "type": "sponge_plant",
+    "name": "VSMPO-AVISMA Titanium Sponge Plant",
+    "location": {
+      "name": "Berezniki, Perm Krai, Russia",
+      "coordinates": { "lat": 59.41, "lng": 56.82 }
+    },
+    "country": "RU",
+    "capacity": { "amount": 46, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "vsmpo-avisma", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "Kroll process",
+    "source": "VSMPO-AVISMA Corporate / USGS",
+    "status": "operating",
+    "notes": "World's largest titanium sponge producer; Russia accounts for 31% of global capacity ex-China; produces ~46.5kt of Russia's total; suspended sales to Boeing/Rolls-Royce post-2022"
+  },
+  {
+    "id": "osaka-titanium-amagasaki",
+    "type": "sponge_plant",
+    "name": "Osaka Titanium Technologies Amagasaki Plant",
+    "location": {
+      "name": "Amagasaki, Hyogo Prefecture, Japan",
+      "coordinates": { "lat": 34.73, "lng": 135.41 }
+    },
+    "country": "JP",
+    "capacity": { "amount": 50, "unit": "kt", "year": 2026 },
+    "ownedBy": [
+      { "companyId": "osaka-titanium", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "Kroll process",
+    "source": "Osaka Titanium Technologies / Argus Metals",
+    "status": "construction",
+    "notes": "New plant under construction with ¥30bn investment; will increase capacity from 40kt to 50kt; leveraging existing infrastructure; completion targeting 2026"
+  },
+  {
+    "id": "toho-titanium-wakamatsu",
+    "type": "sponge_plant",
+    "name": "Toho Titanium Wakamatsu Plant",
+    "location": {
+      "name": "Kitakyushu, Fukuoka Prefecture, Japan",
+      "coordinates": { "lat": 33.91, "lng": 130.81 }
+    },
+    "country": "JP",
+    "capacity": { "amount": 15.6, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "toho-titanium", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "Kroll process",
+    "source": "Toho Titanium Corporate / Japan Metal Bulletin",
+    "status": "operating",
+    "notes": "Planning 30% capacity expansion; also produces nickel powder; considering new plant in US, Saudi Arabia or Japan"
+  },
+  {
+    "id": "toho-titanium-chigasaki",
+    "type": "sponge_plant",
+    "name": "Toho Titanium Chigasaki Plant",
+    "location": {
+      "name": "Chigasaki, Kanagawa Prefecture, Japan",
+      "coordinates": { "lat": 35.33, "lng": 139.40 }
+    },
+    "country": "JP",
+    "capacity": { "amount": 9.6, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "toho-titanium", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "Kroll process",
+    "source": "Toho Titanium Corporate",
+    "status": "operating",
+    "notes": "Part of Toho Titanium's dual-site production system"
+  },
+  {
+    "id": "baoji-titanium-industry",
+    "type": "sponge_plant",
+    "name": "Baoji Titanium Industry Complex",
+    "location": {
+      "name": "Baoji, Shaanxi Province, China",
+      "coordinates": { "lat": 34.36, "lng": 107.24 }
+    },
+    "country": "CN",
+    "capacity": { "amount": 30, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "baoti-group", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "Kroll process",
+    "source": "Baoji Titanium Industry / Research in China",
+    "status": "operating",
+    "notes": "China's Titanium Valley; over 700 titanium enterprises in Baoji; accounts for >50% of China's titanium market; integrated facility producing sponge, ingots (30kt) and products (20kt)"
+  },
+  {
+    "id": "ati-albany",
+    "type": "sponge_plant",
+    "name": "ATI Albany Titanium Plant",
+    "location": {
+      "name": "Albany, Oregon, USA",
+      "coordinates": { "lat": 44.64, "lng": -123.10 }
+    },
+    "country": "US",
+    "capacity": { "amount": 18, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "allegheny-technologies", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "Kroll process",
+    "source": "ATI Corporate / Manufacturing.net",
+    "status": "operating",
+    "notes": "Restarted operations June 2023 after idling in 2016; premium-grade titanium sponge for aerospace applications"
+  },
+  {
+    "id": "uktmp-ust-kamenogorsk",
+    "type": "sponge_plant",
+    "name": "Ust-Kamenogorsk Titanium and Magnesium Plant",
+    "location": {
+      "name": "Ust-Kamenogorsk (Oskemen), Kazakhstan",
+      "coordinates": { "lat": 49.96, "lng": 82.61 }
+    },
+    "country": "KZ",
+    "capacity": { "amount": 32, "unit": "kt", "year": 2024 },
+    "ownedBy": [
+      { "companyId": "uktmp", "percentage": 100 }
+    ],
+    "feedsTo": [],
+    "feedsFrom": [],
+    "processType": "Kroll process",
+    "source": "UKTMP Corporate / Interfax",
+    "status": "operating",
+    "notes": "One of world's largest vertically integrated titanium producers; 11% of world market, 18% of aerospace industry; major supplier to Boeing and Airbus; UKAD joint venture with Aubert & Duval"
+  }
+]
